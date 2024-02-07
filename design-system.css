@@ -76,7 +76,7 @@
   }
   
   .sidebar__link:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Keeps the hover effect for visual cue */
   }
   
   
