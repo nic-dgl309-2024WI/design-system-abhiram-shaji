@@ -1,8 +1,8 @@
 document.getElementById('hamburger-btn').addEventListener('click', function () {
-    var menu = document.getElementById('mobile-menu');
-    if (menu.classList.contains('mobile-menu--active')) {
-        menu.classList.remove('mobile-menu--active');
+    var menu = document.getElementById('menu');
+    if (menu.classList.contains('menu--active')) {
+        menu.classList.remove('menu--active');
     } else {
-        menu.classList.add('mobile-menu--active');
+        menu.classList.add('menu--active');
     }
 });

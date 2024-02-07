@@ -1,53 +1,52 @@
-.mobile-navbar {
+/* Base styles for the navbar, making it adaptable for all screen sizes */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
     background-color: var(--clr-secondary);
     color: var(--clr-white);
-}
-
-.mobile-navbar__button {
+  }
+  
+  .navbar__button {
     background: none;
     border: none;
     color: var(--clr-white);
     font-size: 24px;
     cursor: pointer;
-}
-
-.mobile-menu {
+  }
+  
+  /* Initially hidden menu to be displayed in a mobile-first approach */
+  .menu {
     display: none;
     background-color: var(--clr-secondary);
     padding: 20px;
-}
-
-.mobile-menu__list {
+  }
+  
+  .menu__list {
     list-style: none;
     padding: 0;
-}
-
-.mobile-menu__item a {
+  }
+  
+  .menu__item a {
     text-decoration: none;
-    color: var(--clr-white); 
+    color: var(--clr-white);
     display: block;
     padding: 10px 0;
-}
-
-.mobile-menu--active {
+  }
+  
+  /* Modifier for an active menu */
+  .menu--active {
     display: block;
-}
-
-.content {
+  }
+  
+  .content {
     padding: 20px;
-}
+  }
+  
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  @media (min-width: 650px) {
 
-/* Hide the desktop navigation menu in mobile view */
-.desktop-menu {
-    display: none;
-}
-
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-@media (min-width: 650px) {
-    
-}
+  }
+  
