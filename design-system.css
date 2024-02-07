@@ -44,6 +44,42 @@
     padding: 20px;
   }
   
+  .sidebar {
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: var(--clr-light);
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .sidebar__title {
+    color: var(--clr-primary);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar__list {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar__item {
+    margin-bottom: 5px;
+  }
+  
+  .sidebar__link {
+    display: block;
+    color: var(--clr-secondary);
+    text-decoration: none; /* Removes the underline from links */
+    padding: 5px 0; /* Adds some padding for easier clicking */
+  }
+  
+  .sidebar__link:hover {
+    text-decoration: underline; /* Adds a visual cue on hover */
+  }
+  
+
   /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   
   @media (min-width: 650px) {
