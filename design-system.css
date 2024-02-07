@@ -37,6 +37,10 @@
     display: block;
 }
 
+.content {
+    padding: 20px;
+}
+
 /* Hide the desktop navigation menu in mobile view */
 .desktop-menu {
     display: none;
