@@ -20,3 +20,8 @@
     background-color: var(--clr-secondary);
     padding: 20px;
 }
+
+.mobile-menu__list {
+    list-style: none; /* Already conforms to the design system reset */
+    padding: 0; /* Already conforms to the design system reset */
+}
