@@ -22,13 +22,17 @@
 }
 
 .mobile-menu__list {
-    list-style: none; /* Already conforms to the design system reset */
-    padding: 0; /* Already conforms to the design system reset */
+    list-style: none;
+    padding: 0;
 }
 
 .mobile-menu__item a {
     text-decoration: none;
-    color: var(--clr-white); /* Updated to use var */
+    color: var(--clr-white); 
     display: block;
     padding: 10px 0;
+}
+
+.mobile-menu--active {
+    display: block;
 }
