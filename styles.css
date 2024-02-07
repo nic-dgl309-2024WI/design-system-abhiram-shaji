@@ -1,9 +1,26 @@
 :root {
+
+  /*Colors made for old exercise, Will be removed after making changes to css*/
     --clr-primary: black;
     --clr-secondary: #333;
     --clr-accent: #333;
     --clr-light: #f5f5f5;
     --clr-white: white;
+
+    /*Newly chosen colors after research*/
+    --clr-primary-text: #2D572C;
+    --clr-primary-bg: #DFF2D8;
+    --clr-accent: #E0567D;
+    --clr-secondary-bg: #F0EAD6;
+    --clr-secondary-text: #5A4638;
+    --clr-accent-additional-yellow: #F9D423;
+    --clr-accent-additional-blue: #7BC0C1;
+    --clr-primary-light: #AED9AA;
+    --clr-primary-dark: #1B3A12;
+    --clr-secondary-light: #FBF0E1;
+    --clr-secondary-dark: #423D33;
+    --clr-accent-light: #F4A1B4;
+    --clr-accent-dark: #C04467;
   }
 
 /* CSS Reset and Border Box Fix */
