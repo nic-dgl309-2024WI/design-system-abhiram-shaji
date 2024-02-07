@@ -36,3 +36,8 @@
 .mobile-menu--active {
     display: block;
 }
+
+/* Hide the desktop navigation menu in mobile view */
+.desktop-menu {
+    display: none;
+}
