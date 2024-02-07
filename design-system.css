@@ -14,3 +14,9 @@
     font-size: 24px;
     cursor: pointer;
 }
+
+.mobile-menu {
+    display: none;
+    background-color: var(--clr-secondary);
+    padding: 20px;
+}
