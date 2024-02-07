@@ -1,50 +1,64 @@
 /* Primary colors */
 .c-color-swatch--bg-primary {
-    background-color: #2D572C;
+    background-color: var(--clr-primary-text);
 }
 
 .c-color-swatch--bg-primary-light {
-    background-color: #AED9AA;
+    background-color: var(--clr-primary-light);
 }
 
 .c-color-swatch--bg-primary-dark {
-    background-color: #1B3A12;
+    background-color: var(--clr-primary-dark);
 }
 
 /* Accent colors */
 .c-color-swatch--bg-accent {
-    background-color: #E0567D;
+    background-color: var(--clr-accent);
 }
 
 .c-color-swatch--bg-accent-light {
-    background-color: #F4A1B4;
+    background-color: var(--clr-accent-light);
 }
 
 .c-color-swatch--bg-accent-dark {
-    background-color: #C04467;
+    background-color: var(--clr-accent-dark);
 }
 
 /* Secondary colors */
 .c-color-swatch--bg-secondary {
-    background-color: #F0EAD6;
+    background-color: var(--clr-secondary-bg);
 }
 
 .c-color-swatch--bg-secondary-light {
-    background-color: #FBF0E1;
+    background-color: var(--clr-secondary-light);
 }
 
 .c-color-swatch--bg-secondary-dark {
-    background-color: #423D33;
+    background-color: var(--clr-secondary-dark);
 }
 
 /* Additional accent colors */
 .c-color-swatch--bg-accent-additional-yellow {
-    background-color: #F9D423;
+    background-color: var(--clr-accent-additional-yellow);
 }
 
 .c-color-swatch--bg-accent-additional-blue {
-    background-color: #7BC0C1;
+    background-color: var(--clr-accent-additional-blue);
 }
+
+.c-color-swatch--text-white {
+    color: var(--clr-text-white); /* White */
+}
+
+.c-color-swatch--text-primary {
+    color: var(--clr-primary-text);
+}
+
+.c-color-swatch--text-secondary {
+    color: var(--clr-secondary-text);
+}
+
+
 
 /* Base styles for the navbar, adapting to new color scheme */
 .navbar {
@@ -95,9 +109,6 @@
 .sidebar {
     left: 0;
     top: 0;
-    width: 200px;
-    height: 100%;
-    background-color: var(--clr-primary-bg);
     padding: 20px;
     overflow-y: auto;
 }
@@ -132,11 +143,19 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .c-color-swatch {
     border-radius: 5px;
     padding: 10px;
+}
+
+.swatch-container {
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
