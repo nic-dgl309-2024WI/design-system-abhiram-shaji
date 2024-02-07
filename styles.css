@@ -10,3 +10,8 @@
 *, *::before, *::after {
     box-sizing: border-box;
   }
+
+/* Reset margins for body, headings, p, figure, picture */
+body, h1, h2, h3, h4, h5, h6, p, figure, picture {
+    margin: 0;
+  }
