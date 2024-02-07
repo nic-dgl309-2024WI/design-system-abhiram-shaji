@@ -5,3 +5,8 @@
     --clr-light: #f5f5f5;
     --clr-white: white;
   }
+
+/* CSS Reset and Border Box Fix */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
