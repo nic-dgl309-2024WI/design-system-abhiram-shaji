@@ -1,3 +1,22 @@
+/* Primary colors */
+.c-color-swatch--bg-primary { background-color: #2D572C; }
+.c-color-swatch--bg-primary-light { background-color: #AED9AA; }
+.c-color-swatch--bg-primary-dark { background-color: #1B3A12; }
+
+/* Accent colors */
+.c-color-swatch--bg-accent { background-color: #E0567D; }
+.c-color-swatch--bg-accent-light { background-color: #F4A1B4; }
+.c-color-swatch--bg-accent-dark { background-color: #C04467; }
+
+/* Secondary colors */
+.c-color-swatch--bg-secondary { background-color: #F0EAD6; }
+.c-color-swatch--bg-secondary-light { background-color: #FBF0E1; }
+.c-color-swatch--bg-secondary-dark { background-color: #423D33; }
+
+/* Additional accent colors */
+.c-color-swatch--bg-accent-additional-yellow { background-color: #F9D423; }
+.c-color-swatch--bg-accent-additional-blue { background-color: #7BC0C1; }
+
 /* Base styles for the navbar, adapting to new color scheme */
 .navbar {
     display: flex;
