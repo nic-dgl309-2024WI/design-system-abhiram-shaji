@@ -1,21 +1,50 @@
 /* Primary colors */
-.c-color-swatch--bg-primary { background-color: #2D572C; }
-.c-color-swatch--bg-primary-light { background-color: #AED9AA; }
-.c-color-swatch--bg-primary-dark { background-color: #1B3A12; }
+.c-color-swatch--bg-primary {
+    background-color: #2D572C;
+}
+
+.c-color-swatch--bg-primary-light {
+    background-color: #AED9AA;
+}
+
+.c-color-swatch--bg-primary-dark {
+    background-color: #1B3A12;
+}
 
 /* Accent colors */
-.c-color-swatch--bg-accent { background-color: #E0567D; }
-.c-color-swatch--bg-accent-light { background-color: #F4A1B4; }
-.c-color-swatch--bg-accent-dark { background-color: #C04467; }
+.c-color-swatch--bg-accent {
+    background-color: #E0567D;
+}
+
+.c-color-swatch--bg-accent-light {
+    background-color: #F4A1B4;
+}
+
+.c-color-swatch--bg-accent-dark {
+    background-color: #C04467;
+}
 
 /* Secondary colors */
-.c-color-swatch--bg-secondary { background-color: #F0EAD6; }
-.c-color-swatch--bg-secondary-light { background-color: #FBF0E1; }
-.c-color-swatch--bg-secondary-dark { background-color: #423D33; }
+.c-color-swatch--bg-secondary {
+    background-color: #F0EAD6;
+}
+
+.c-color-swatch--bg-secondary-light {
+    background-color: #FBF0E1;
+}
+
+.c-color-swatch--bg-secondary-dark {
+    background-color: #423D33;
+}
 
 /* Additional accent colors */
-.c-color-swatch--bg-accent-additional-yellow { background-color: #F9D423; }
-.c-color-swatch--bg-accent-additional-blue { background-color: #7BC0C1; }
+.c-color-swatch--bg-accent-additional-yellow {
+    background-color: #F9D423;
+}
+
+.c-color-swatch--bg-accent-additional-blue {
+    background-color: #7BC0C1;
+}
 
 /* Base styles for the navbar, adapting to new color scheme */
 .navbar {
@@ -25,45 +54,45 @@
     padding: 16px;
     background-color: var(--clr-secondary-bg);
     color: var(--clr-primary-text);
-  }
-  
-  .navbar__button {
+}
+
+.navbar__button {
     background: none;
     border: none;
     color: var(--clr-primary-text);
     font-size: 24px;
     cursor: pointer;
-  }
-  
-  /* Initially hidden menu to be displayed with a mobile-first approach */
-  .menu {
+}
+
+/* Initially hidden menu to be displayed with a mobile-first approach */
+.menu {
     display: none;
-    background-color: var(--clr-secondary-bg); 
+    background-color: var(--clr-secondary-bg);
     padding: 20px;
-  }
-  
-  .menu__list {
+}
+
+.menu__list {
     list-style: none;
     padding: 0;
-  }
-  
-  .menu__item a {
+}
+
+.menu__item a {
     text-decoration: none;
-    color: var(--clr-primary-text); 
+    color: var(--clr-primary-text);
     display: block;
     padding: 10px 0;
-  }
-  
-  /* Modifier for an active menu */
-  .menu--active {
+}
+
+/* Modifier for an active menu */
+.menu--active {
     display: block;
-  }
-  
-  .content {
+}
+
+.content {
     padding: 20px;
-  }
-  
-  .sidebar {
+}
+
+.sidebar {
     left: 0;
     top: 0;
     width: 200px;
@@ -71,38 +100,45 @@
     background-color: var(--clr-primary-bg);
     padding: 20px;
     overflow-y: auto;
-  }
-  
-  .sidebar__title {
-    color: var(--clr-primary-dark); 
+}
+
+.sidebar__title {
+    color: var(--clr-primary-dark);
     font-size: 1.2rem;
     margin-bottom: 10px;
-  }
-  
-  .sidebar__list {
+}
+
+.sidebar__list {
     margin-bottom: 20px;
-  }
-  
-  .sidebar__item {
+}
+
+.sidebar__item {
     margin-bottom: 5px;
-  }
-  
-  .sidebar__link {
+}
+
+.sidebar__link {
     display: block;
     color: var(--clr-secondary-text);
     text-decoration: none;
-    padding: 5px 0; 
-  }
-  
-  .sidebar__link:hover {
-    text-decoration: underline; /* Keeps the hover effect for visual cue */
-  }
-  
-  
+    padding: 5px 0;
+}
 
-  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-  
-  @media (min-width: 650px) {
+.sidebar__link:hover {
+    text-decoration: underline;
+    /* Keeps the hover effect for visual cue */
+}
 
-  }
-  
+.l-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.c-color-swatch {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 650px) {}
