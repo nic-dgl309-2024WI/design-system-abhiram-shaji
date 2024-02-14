@@ -19,12 +19,12 @@
   --heading-font-family: 'Josefin Sans', sans-serif;
   --body-font-family: 'Lato', sans-serif;
 
-  --heading-font-size-h1: 3.25rem;
-  --heading-font-size-h2: 3rem;  
-  --heading-font-size-h3: 2.75rem; 
-  --heading-font-size-h4: 2.5rem;  
-  --heading-font-size-h5: 2.25rem; 
-  --body-font-size: 1.1rem;
+  --heading-font-size-h1: 3rem;
+  --heading-font-size-h2: 2.75rem;  
+  --heading-font-size-h3: 2.5rem; 
+  --heading-font-size-h4: 2.25rem;  
+  --heading-font-size-h5: 2rem; 
+  --body-font-size: 1.2rem;
 
   /* Font Weights */
   --heading-font-weight: 700;
@@ -74,7 +74,7 @@ h1 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
-  color: var(--clr-secondary-text);
+  color: var(--clr-accent-dark);
 }
 
 /* Styles for h2 */
@@ -84,7 +84,7 @@ h2 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
-  color: var( --clr-accent-dark);
+  color: var( --clr-accent);
 }
 
 /* Styles for h3 */
