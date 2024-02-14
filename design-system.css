@@ -1,4 +1,17 @@
-/* Primary colors */
+/*
+
+INDEX
+1.Color
+2.Font
+3.Elements
+4.Navbar
+
+
+*/
+
+
+
+/* ------------------------------------------------- 1.Color ----------------------------------------------------------------- */
 .c-color-swatch--bg-primary {
     background-color: var(--clr-primary-text);
 }
@@ -57,6 +70,46 @@
 .c-color-swatch--text-secondary {
     color: var(--clr-secondary-text);
 }
+
+/*--------------------------------------------------- 2.Font ---------------------------------------------------------------------*/
+
+/* Utility Class for Font Family */
+.u-ff-serif { 
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.u-ff-sans { 
+    font-family: 'Lato', sans-serif; 
+}
+
+/* Utility Class for Font Size */
+.u-fs-800 { 
+    font-size: 800%;
+}
+
+/* Utility Class for Font Weight */
+.u-fw-700 { 
+    font-weight: 700; 
+}
+
+.u-fw-400 { 
+    font-weight: 400; 
+}
+
+/* Utility Class for Letter Spacing */
+.u-letter-spacing-2 { 
+    letter-spacing: 2px; 
+}
+
+/* Utility Classes for Text Color */
+.u-text-accent { 
+    color: var(--clr-accent); 
+}
+
+.u-text-primary { 
+    color: var(--clr-primary-text); 
+}
+
 
 .heading {
     font-family: var(--heading-font-family);

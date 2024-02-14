@@ -18,6 +18,11 @@
     --clr-accent-dark: #C04467;
     --clr-text-white: #fafafa;
 
+    /*Temp*/
+    --heading-color: #356859;
+    --body-color: #333333;
+    --cta-color: #F4A261;
+
     /*Typefaces*/
     --heading-font-family: 'Josefin Sans', sans-serif;
     --body-font-family: 'Lato', sans-serif;
@@ -28,9 +33,6 @@
     --heading-line-height: 1.2;
     --body-line-height: 1.6;
     --letter-spacing: 0.5px;
-    --heading-color: #356859;
-    --body-color: #333333;
-    --cta-color: #F4A261;
   }
 
 /* CSS Reset and Border Box Fix */
