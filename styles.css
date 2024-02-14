@@ -2,27 +2,19 @@
 
 :root {
 
-  --base-font-size: 16px;
   /*Colors*/
   --clr-primary-text: #2D572C;
   --clr-primary-bg: #DFF2D8;
   --clr-accent: #E0567D;
   --clr-secondary-bg: #F0EAD6;
   --clr-secondary-text: #5A4638;
-  --clr-accent-additional-yellow: #F9D423;
-  --clr-accent-additional-blue: #7BC0C1;
   --clr-primary-light: #AED9AA;
   --clr-primary-dark: #1B3A12;
   --clr-secondary-light: #FBF0E1;
   --clr-secondary-dark: #423D33;
   --clr-accent-light: #F4A1B4;
   --clr-accent-dark: #C04467;
-  --clr-text-white: #fafafa;
 
-  /*Temp*/
-  --heading-color: #356859;
-  --body-color: #333333;
-  --cta-color: #F4A261;
 
   /* Typefaces */
   --heading-font-family: 'Josefin Sans', sans-serif;
@@ -83,7 +75,6 @@ h1 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
-  color: var(--heading-color);
 }
 
 /* Styles for h2 */
@@ -93,7 +84,6 @@ h2 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
-  color: var(--heading-color);
 }
 
 /* Styles for h3 */
@@ -103,7 +93,6 @@ h3 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
-  color: var(--heading-color);
 }
 
 /* Styles for h4 */
@@ -113,7 +102,6 @@ h4 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
-  color: var(--heading-color);
 }
 
 /* Styles for h5 */
@@ -123,7 +111,6 @@ h5 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
-  color: var(--heading-color);
 }
 
 /* Styles for body text */
@@ -133,7 +120,6 @@ body, p {
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
   letter-spacing: var(--letter-spacing);
-  color: var(--body-color);
 }
 
 

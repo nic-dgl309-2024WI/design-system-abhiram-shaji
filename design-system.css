@@ -50,19 +50,6 @@ INDEX
     background-color: var(--clr-secondary-dark);
 }
 
-/* Additional accent colors */
-.c-color-swatch--bg-accent-additional-yellow {
-    background-color: var(--clr-accent-additional-yellow);
-}
-
-.c-color-swatch--bg-accent-additional-blue {
-    background-color: var(--clr-accent-additional-blue);
-}
-
-.c-color-swatch--text-white {
-    color: var(--clr-text-white);
-    /* White */
-}
 
 .c-color-swatch--text-primary {
     color: var(--clr-primary-text);
@@ -114,7 +101,7 @@ INDEX
 
 
 .cta {
-    color: var(--cta-color);
+    color: var();
     font-weight: 700;
     /* Bold */
 }
@@ -213,7 +200,6 @@ INDEX
 
 .l-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     align-items: center;
     justify-content: center;
