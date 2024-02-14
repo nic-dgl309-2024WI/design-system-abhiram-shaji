@@ -4,13 +4,17 @@
 
   /*Colors*/
   --clr-primary-text: #1B3A12;
-  --clr-primary-bg: #DFF2D8;
-  --clr-accent: #E0567D;
-  --clr-secondary-bg: #F0EAD6;
   --clr-secondary-text: #5A4638;
+  --clr-light-text: #fafafa;
+
+  --clr-primary-bg: #DFF2D8;
   --clr-primary-light: #AED9AA;
+
+  --clr-secondary-bg: #F0EAD6;
   --clr-secondary-light: #FBF0E1;
   --clr-secondary-dark: #423D33;
+  
+  --clr-accent: #E0567D;
   --clr-accent-light: #F4A1B4;
   --clr-accent-dark: #C04467;
 
