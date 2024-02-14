@@ -3,13 +3,12 @@
 :root {
 
   /*Colors*/
-  --clr-primary-text: #2D572C;
+  --clr-primary-text: #1B3A12;
   --clr-primary-bg: #DFF2D8;
   --clr-accent: #E0567D;
   --clr-secondary-bg: #F0EAD6;
   --clr-secondary-text: #5A4638;
   --clr-primary-light: #AED9AA;
-  --clr-primary-dark: #1B3A12;
   --clr-secondary-light: #FBF0E1;
   --clr-secondary-dark: #423D33;
   --clr-accent-light: #F4A1B4;
@@ -20,12 +19,12 @@
   --heading-font-family: 'Josefin Sans', sans-serif;
   --body-font-family: 'Lato', sans-serif;
 
-  --heading-font-size-h1: 2.25rem;
-  --heading-font-size-h2: 2rem;  
-  --heading-font-size-h3: 1.75rem; 
-  --heading-font-size-h4: 1.5rem;  
-  --heading-font-size-h5: 1.25rem; 
-  --body-font-size: 1rem;
+  --heading-font-size-h1: 3.25rem;
+  --heading-font-size-h2: 3rem;  
+  --heading-font-size-h3: 2.75rem; 
+  --heading-font-size-h4: 2.5rem;  
+  --heading-font-size-h5: 2.25rem; 
+  --body-font-size: 1.1rem;
 
   /* Font Weights */
   --heading-font-weight: 700;
@@ -75,6 +74,7 @@ h1 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
+  color: var(--clr-secondary-text);
 }
 
 /* Styles for h2 */
@@ -84,6 +84,7 @@ h2 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
+  color: var( --clr-accent-dark);
 }
 
 /* Styles for h3 */
@@ -93,6 +94,7 @@ h3 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
+  color: var(--clr-secondary-text);
 }
 
 /* Styles for h4 */
@@ -102,6 +104,7 @@ h4 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
+  color: var(--clr-secondary-dark);
 }
 
 /* Styles for h5 */
@@ -111,6 +114,7 @@ h5 {
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   letter-spacing: var(--letter-spacing);
+  color: var(--clr-secondary-dark);
 }
 
 /* Styles for body text */
@@ -120,6 +124,7 @@ body, p {
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
   letter-spacing: var(--letter-spacing);
+  color: var(--clr-primary-text);
 }
 
 

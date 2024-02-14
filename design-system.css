@@ -13,7 +13,7 @@ INDEX
 
 /* ------------------------------------------------- 1.Color ----------------------------------------------------------------- */
 .c-color-swatch--bg-primary {
-    background-color: var(--clr-primary-text);
+    background-color: var(--clr-primary-bg);
 }
 
 .c-color-swatch--bg-primary-light {
@@ -59,6 +59,13 @@ INDEX
     color: var(--clr-secondary-text);
 }
 
+/* Utility Classes for Text Color */
+.c-color-swatch---accent {
+    color: var(--clr-accent);
+}
+
+
+
 /*--------------------------------------------------- 2.Font ---------------------------------------------------------------------*/
 
 /* Utility Class for Font Family */
@@ -89,14 +96,6 @@ INDEX
     letter-spacing: 2px;
 }
 
-/* Utility Classes for Text Color */
-.u-text-accent {
-    color: var(--clr-accent);
-}
-
-.u-text-primary {
-    color: var(--clr-primary-text);
-}
 
 
 
