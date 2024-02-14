@@ -2,51 +2,82 @@
 
 :root {
 
-    /*Colors*/
-    --clr-primary-text: #2D572C;
-    --clr-primary-bg: #DFF2D8;
-    --clr-accent: #E0567D;
-    --clr-secondary-bg: #F0EAD6;
-    --clr-secondary-text: #5A4638;
-    --clr-accent-additional-yellow: #F9D423;
-    --clr-accent-additional-blue: #7BC0C1;
-    --clr-primary-light: #AED9AA;
-    --clr-primary-dark: #1B3A12;
-    --clr-secondary-light: #FBF0E1;
-    --clr-secondary-dark: #423D33;
-    --clr-accent-light: #F4A1B4;
-    --clr-accent-dark: #C04467;
-    --clr-text-white: #fafafa;
+  /*Colors*/
+  --clr-primary-text: #2D572C;
+  --clr-primary-bg: #DFF2D8;
+  --clr-accent: #E0567D;
+  --clr-secondary-bg: #F0EAD6;
+  --clr-secondary-text: #5A4638;
+  --clr-accent-additional-yellow: #F9D423;
+  --clr-accent-additional-blue: #7BC0C1;
+  --clr-primary-light: #AED9AA;
+  --clr-primary-dark: #1B3A12;
+  --clr-secondary-light: #FBF0E1;
+  --clr-secondary-dark: #423D33;
+  --clr-accent-light: #F4A1B4;
+  --clr-accent-dark: #C04467;
+  --clr-text-white: #fafafa;
 
-    /*Temp*/
-    --heading-color: #356859;
-    --body-color: #333333;
-    --cta-color: #F4A261;
+  /*Temp*/
+  --heading-color: #356859;
+  --body-color: #333333;
+  --cta-color: #F4A261;
 
-    /*Typefaces*/
-    --heading-font-family: 'Josefin Sans', sans-serif;
-    --body-font-family: 'Lato', sans-serif;
-    --heading-font-size: 32px;
-    --body-font-size: 16px;
-    --heading-font-weight: 700;
-    --body-font-weight: 400;
-    --heading-line-height: 1.2;
-    --body-line-height: 1.6;
-    --letter-spacing: 0.5px;
-  }
+  /* Typefaces */
+  --heading-font-family: 'Josefin Sans', sans-serif;
+  --body-font-family: 'Lato', sans-serif;
+
+  /* Font Sizes */
+  --heading-font-size-h1: 36px;
+  /* Example size, adjust as needed */
+  --heading-font-size-h2: 32px;
+  /* Example size, adjust as needed */
+  --heading-font-size-h3: 28px;
+  /* Example size, adjust as needed */
+  --heading-font-size-h4: 24px;
+  /* Example size, adjust as needed */
+  --heading-font-size-h5: 20px;
+  /* Example size, adjust as needed */
+  --body-font-size: 16px;
+
+  /* Font Weights */
+  --heading-font-weight: 700;
+  --body-font-weight: 400;
+
+  /* Line Heights */
+  --heading-line-height: 1.2;
+  --body-line-height: 1.6;
+
+  /* Letter Spacing */
+  --letter-spacing: 0.5px;
+}
 
 /* CSS Reset and Border Box Fix */
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 /* Reset margins for body, headings, p, figure, picture */
-body, h1, h2, h3, h4, h5, h6, p, figure, picture {
-    margin: 0;
-  }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
 
 /* Remove padding from lists */
-ul, ol {
-    padding: 0;
-    list-style: none;
-  }
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+
