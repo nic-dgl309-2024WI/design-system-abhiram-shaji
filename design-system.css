@@ -84,6 +84,17 @@
 
 
 /* Base styles for the navbar, adapting to new color scheme */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 5% 2% 5%;
+    padding: 5%;
+    background-color: white;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
