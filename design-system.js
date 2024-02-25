@@ -14,11 +14,17 @@ var page = path.split("/").pop();
 var aboutLink = document.getElementById("about-link");
 var demoLink = document.getElementById("demo-link");
 
-// Add 'active' class to the corresponding link based on the page
-if (page === "about-me.html") {
-  aboutLink.classList.add("active");
-} else if (page === "demo-site.html") {
-  demoLink.classList.add("active");
+// Switch case to add 'active' class to the corresponding link based on the page
+switch (page) {
+  case "about-me.html":
+    aboutLink.classList.add("active");
+    break;
+  case "demo-site.html":
+    demoLink.classList.add("active");
+    break;
+  default:
+    break;
 }
+
 
 
