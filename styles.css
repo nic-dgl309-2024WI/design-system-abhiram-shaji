@@ -129,6 +129,45 @@
   line-height: 3rem;
 }
 
+/* Utility class for the body text */
+.u-body-text {
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/*Hero subheading*/
+.u-hero-sub {
+  font-size: 1.25rem;
+}
+
+/* Utility classes for font weights */
+.u-font-light {
+  font-weight: 300;
+}
+
+.u-font-regular {
+  font-weight: 400;
+}
+
+.u-font-semibold {
+  font-weight: 600;
+}
+
+.u-font-bold {
+  font-weight: 700;
+}
+
+
+
+.u-body-text-light {
+  font-weight: 300;
+}
+
+.u-body-text-bold {
+  font-weight: 700;
+}
 
 
 .cta {
