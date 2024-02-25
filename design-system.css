@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: brown;
+    background-color: var(--clr-accent);
 }
 
 /* Styles for navigation */
@@ -32,14 +32,13 @@ nav.navigation.active {
     width: 100%;
     height: 100%;
     /* Temporary background color */
-    background: brown;
+    background-color: var(--clr-accent);
 }
 
 /* Styles for navigation links within active state */
 nav.navigation.active a {
     padding: 20px;
     /* Temporary color */
-    color: azure;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -65,12 +64,6 @@ img.close.show {
     display: flex;
 }
 
-/* Styles for active link */
-.active {
-    background-color: black; /* Change the color as needed */
-    border-radius: 40px;
-}
-
 
 .color-swatch-container, .typography-container {
     display: grid;
@@ -86,6 +79,10 @@ img.close.show {
 
 .typography-container-item > * {
     padding: 5px;
+}
+
+.active-page {
+    background-color: var(--clr-accen-light);
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -105,9 +102,12 @@ img.close.show {
     nav.navigation a {
         font-size: 16px;
         padding: 10px;
-        color: white;
         font-weight: bold;
         text-decoration: none;
+    }
+
+    nav.navigation a:hover  {
+        background-color: var(--clr-primary-bg);
     }
 
     /* Hide toggle box on large screens */

@@ -13,55 +13,53 @@
 
   <!-- Navbar -->
 
-  <header>
+  <header class="u-bg-secondary">
     <div class="logo">
-      <a class="logo_text" href="index.html"><h2>Design System</h2></a>
+      <a class="logo_text u-text-secondary u-font-josefin-sans" href="index.html">
+        <h2 class="u-heading">Design System</h2>
+      </a>
     </div>
     <nav class="navigation">
-      <a href="about-me.html" class="active">About Me</a>
-      <a href="">Demo Site</a>
+      <a class="navigation_item u-text-secondary u-body-text active-page" href="about-me.html">About Me</a>
+      <a class="navigation_item u-text-secondary u-body-text" href="">Demo Site</a>
     </nav>
 
     <div class="toggleBox">
-      <a onclick="showMenu()" href="#"><img class="menu" alt="menu" src="images/icons/more.png"><img class="close"
-          src="images/icons/close.png" alt="close"></a>
+      <a onclick="showMenu()" href="#" class="u-text-secondary"><img class="menu" alt="menu"
+          src="images/icons/more.png"><img class="close" src="images/icons/close.png" alt="close"></a>
     </div>
   </header>
 
-  <!-- add your name -->
-  <h1 class="c-portfolio__name">Hi! My name is Abhiram Shaji</h1>
-  <h2 class="c-portfolio__role">I am an Android / Web developer.</h2>
+  <section>
+    <h1 class="u-heading-1 u-text-secondary">Hi! My name is Abhiram Shaji</h1>
+    <h2 class="u-heading-2 u-text-primary">I am an Android / Web developer.</h2>
 
-  <!-- add your portrait photo -->
+    <img src="images/placeholder-square.jpg" alt="Portrait of Abhiram Shaji" style="width: 500px; height: 500px" />
 
-  <img src="images/placeholder-square.jpg" alt="Portrait of Abhiram Shaji" class="c-portfolio__image"
-    style="width: 500px; height: 500px" />
+    <p class="u-body-text u-text-primary">
+      With a fervent passion for crafting digital experiences, I intertwine my love for coding and creativity,
+      effortlessly venturing between the worlds of technology and artistic expression. Whether I'm navigating through
+      code
+      lines or hiking trails, exploration and innovation are at the heart of what I do. Smart enough to know how dumb I
+      can be, and while I may be extremely lazy, I'll still find the fastest ways mostly to get to the snack cabinet
+      without getting up.
+    </p>
 
-  <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
+    <p class="u-body-text-bold u-text-primary">My favourite programming languages are</p>
+    <ul>
+      <li class="u-body-text u-text-primary">Javascript</li>
+      <li class="u-body-text u-text-primary">C#</li>
+      <li class="u-body-text u-text-primary">C++</li>
+    </ul>
 
-  <p class="c-portfolio__biography">
-    With a fervent passion for crafting digital experiences, I intertwine my love for coding and creativity,
-    effortlessly venturing between the worlds of technology and artistic expression.Whether I'm navigating through code
-    lines or hiking trails, exploration and innovation are at the heart of what I do. Smart enough to know how dumb I
-    can be, and while I may be extremely lazy, I'll still find the fastest ways mostly to get to the snack cabinet
-    without getting up.
-  </p>
+    <p class="u-body-text-bold u-text-primary">My skills include</p>
+    <ul>
+      <li class="u-body-text u-text-primary">Team Work</li>
+      <li class="u-body-text u-text-primary">Patient</li>
+      <li class="u-body-text u-text-primary">Stress Management</li>
+    </ul>
+  </section>
 
-  <!-- add a list of your favourite web development tools. -->
-  <p class="c-portfolio__languages-title">My favourite programming languages are</p>
-  <ul class="c-portfolio__languages-list">
-    <li class="c-portfolio__language">Javascript</li>
-    <li class="c-portfolio__language">C#</li>
-    <li class="c-portfolio__language">C++</li>
-  </ul>
-  
-  <!-- add a list of your strongest web development skills. -->
-  <p class="c-portfolio__skills-title">My skills include</p>
-  <ul class="c-portfolio__skills-list">
-    <li class="c-portfolio__skill">Team Work</li>
-    <li class="c-portfolio__skill">Patient</li>
-    <li class="c-portfolio__skill">Stress Management</li>
-  </ul>
 
   <script src="design-system.js"></script>
 </body>
