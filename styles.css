@@ -89,6 +89,45 @@
 
 
 
+/* Fontfaces */
+
+.u-font-josefin-sans {
+  font-family: var(--heading-font-family);
+}
+
+/* Heading 1 */
+.u-heading-1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+/* Heading 1 Light */
+.u-heading-1-light {
+  font-weight: 300;
+}
+
+/* Heading 2 */
+.u-heading-2 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+/* Heading 2 Light */
+.u-heading-2-light {
+  font-weight: 300;
+}
+
+/* Hero Headline */
+.u-hero-headline {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
 
 
 

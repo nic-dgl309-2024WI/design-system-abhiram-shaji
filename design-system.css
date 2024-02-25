@@ -72,7 +72,7 @@ img.close.show {
 }
 
 
-.color-swatch-container {
+.color-swatch-container, .typography-container {
     display: grid;
     padding: 5%;
     gap: 5%;
