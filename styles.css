@@ -24,18 +24,11 @@
   /* Typefaces */
   --heading-font-family: 'Josefin Sans', sans-serif;
   --body-font-family: 'Montserrat', sans-serif;
-
   --body-font-size: 1.2rem;
-
-  /* Font Weights */
   --heading-font-weight: 700;
   --body-font-weight: 400;
-
-  /* Line Heights */
   --heading-line-height: 1.2;
   --body-line-height: 1.6;
-
-  /* Letter Spacing */
   --letter-spacing: 0.5px;
 }
 
@@ -91,40 +84,29 @@
 
 /* Fontfaces */
 
+/* Base font families */
 .u-font-josefin-sans {
   font-family: var(--heading-font-family);
 }
 
-/* Heading 1 */
-.u-heading-1 {
+.u-font-montserrat {
+  font-family: var(--body-font-family);
+}
+
+/* Headings common styles */
+.u-heading {
   font-family: var(--heading-font-family);
-  font-weight: 700;
+  font-weight: var(--heading-font-weight); /* Use variable for consistency */
+  line-height: var(--heading-line-height);
+}
+
+/* Specific heading styles */
+.u-heading-1, .u-heading-2 {
   font-size: 1.5rem;
-  line-height: 1.8rem;
+  line-height: 1.8rem; /* Assuming you want this specific line-height for h1 and h2 */
 }
 
-/* Heading 1 Light */
-.u-heading-1-light {
-  font-weight: 300;
-}
-
-/* Heading 2 */
-.u-heading-2 {
-  font-family: var(--heading-font-family);
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-}
-
-/* Heading 2 Light */
-.u-heading-2-light {
-  font-weight: 300;
-}
-
-/* Hero Headline */
 .u-hero-headline {
-  font-family: var(--heading-font-family);
-  font-weight: 700;
   font-size: 2.5rem;
   line-height: 3rem;
 }
@@ -132,17 +114,18 @@
 /* Utility class for the body text */
 .u-body-text {
   font-family: var(--body-font-family);
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-weight: var(--body-font-weight); /* Use variable for consistency */
+  font-size: 1rem; /* Adjust if needed */
+  line-height: 1.5rem; /* Adjust if needed */
 }
 
-/*Hero subheading*/
+/*Hero subheading - assuming it uses Montserrat */
 .u-hero-sub {
+  font-family: var(--body-font-family); /* If it needs to explicitly use Montserrat */
   font-size: 1.25rem;
 }
 
-/* Utility classes for font weights */
+/* Utility classes for font weights - No changes needed */
 .u-font-light {
   font-weight: 300;
 }
@@ -159,19 +142,11 @@
   font-weight: 700;
 }
 
-
-
+/* Light and bold variants for body text */
 .u-body-text-light {
   font-weight: 300;
 }
 
 .u-body-text-bold {
   font-weight: 700;
-}
-
-
-.cta {
-  color: var();
-  font-weight: 700;
-  /* Bold */
 }
