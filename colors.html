@@ -14,15 +14,18 @@
   <!-- Navbar -->
   <header>
     <div class="logo">
-      <a class="logo_text" href="index.html"><h2>Design System</h2></a>
+      <a class="logo_text" href="index.html">
+        <h2>Design System</h2>
+      </a>
     </div>
     <nav class="navigation">
       <a href="about-me.html">About Me</a>
       <a href="">Demo Site</a>
     </nav>
-  
+
     <div class="toggleBox">
-      <a onclick="showMenu()" href="#"><img class="menu" alt="menu" src="images/icons/more.png"><img class="close" src="images/icons/close.png" alt="close"></a>
+      <a onclick="showMenu()" href="#"><img class="menu" alt="menu" src="images/icons/more.png"><img class="close"
+          src="images/icons/close.png" alt="close"></a>
     </div>
   </header>
 
@@ -69,130 +72,124 @@
       <li><a class="sidebar_item" href="#">19 Lists</a></li>
     </ul>
 
-</section>
+  </section>
 
   <!-- Color swatches -->
 
-  <section class="container">
-    <h1>Colors</h1>
-    <br>
-    <h2>Text</h2>
-    
-    <div>
-      <div>
-        <p>Primary Text</p>
-        <p>Hex Code: #1B3A12</p>
-      </div>
-      <div>
-        <p>Secondary Text</p>
-        <p>Hex Code: #5A4638</p>
-      </div>
-      <div>  
-        <p>White Text</p>
-        <p>Hex Code: #FAFAFA</p>
-      </div>
-      <div>  
-        <p>Accent Text</p>
-        <p>Hex Code: #F4A1B4</p>
-      </div>
-      <div>  
-        <p>Accent Text Dark</p>
-        <p>Hex Code: #C04467</p>
-      </div>
-    </div>
-    <br>
-    
+  <section class="color-swatch-container">
+    <!-- Background Colors -->
     <h2>Background</h2>
-    
     <div>
-      <!-- Primary Colors -->
-      <div>
-        <p>BG Primary Light</p>
-        <p>+ Primary Text</p>
+      <div class="u-bg-primary u-text-primary">
+        <p>Primary Background</p>
+        <p>Class name : .u-bg-primary</p>
         <p>Hex Code: #AED9AA</p>
-        <p>Uses: Backgrounds, Borders</p>
+        <p>Uses: Backgrounds</p>
       </div>
-    
-      <!-- Accent Colors -->
-      
-      <div>
-        <p>BG Accent Light</p>
-        <p>+ Primary Text</p>
-        <p>Hex Code: #F4A1B4</p>
-        <p>Uses: Highlighting, Icons</p>
-      </div>
-      
-    
-      <!-- Secondary Colors -->
-      <div>
-        <p>BG Secondary</p>
-        <p>+ Primary Text</p>
-        <p>Hex Code: #F0EAD6</p>
-        <p>Uses: Backgrounds, Forms</p>
-      </div>
-      <div>
-        <p>BG Secondary Light</p>
-        <p>+ Primary Text</p>
-        <p>Hex Code: #FBF0E1</p>
-        <p>Uses: Containers, Panels</p>
-      </div>
-      <div>
-        <p>BG Secondary Dark</p>
-        <p>+ Light Text</p>
-        <p>Hex Code: #423D33</p>
-        <p>Uses: Text, Borders</p>
-      </div>
-    
-      <div>
-        <p>BG Secondary</p>
-        <p>+ Accent Text</p>
-        <p>Hex Code: #423D33</p>
-        <p>Uses: Text, Borders</p>
-      </div>
-    
-      <div>
-        <p>BG Secondary</p>
-        <p>+ Accent Text Dark</p>
-        <p>Hex Code: #423D33</p>
-        <p>Uses: Text, Borders</p>
-      </div>
-    
-      <!-- Light Primary Color -->
-      <div>
-        <p>BG Primary Light</p>
-        <p>+ Secondary Text</p>
+
+
+      <div class="u-bg-secondary u-text-primary">
+        <p>Secondary Background</p>
+        <p>Class name : .u-bg-secondary</p>
         <p>Hex Code: #AED9AA</p>
-        <p>Uses: Backgrounds, Borders</p>
+        <p>Uses: Navbar and sides</p>
       </div>
-    
-      <div>
-        <p>BG Accent Light</p>
-        <p>+ Secondary Text</p>
-        <p>Hex Code: #F4A1B4</p>
-        <p>Uses: Highlighting, Icons</p>
+
+      <div class="u-bg-white u-text-primary">
+        <p>White Background</p>
+        <p>Class name : .u-bg-white</p>
+        <p>Hex Code: #AED9AA</p>
+        <p>Uses: Background Highlights</p>
       </div>
-    
-      <!-- Secondary Colors -->
-      <div>
-        <p>BG Secondary</p>
-        <p>+ Secondary Text</p>
-        <p>Hex Code: #F0EAD6</p>
-        <p>Uses: Backgrounds, Forms</p>
+
+    </div>
+
+    <!-- Font Colors -->
+    <h2>Texts</h2>
+    <div>
+      <div class="u-bg-primary u-text-primary">
+        <p>Primary Text</p>
+        <p>Class name : .u-text-primary</p>
+        <p>Hex Code: #AED9AA</p>
+        <p>Uses: Paragraphs</p>
       </div>
-      <div>
-        <p>BG Secondary Light</p>
-        <p>+ Secondary Text</p>
-        <p>Hex Code: #FBF0E1</p>
-        <p>Uses: Containers, Panels</p>
-      </div>
-      <div>
-        <p>BG Accent Dark</p>
-        <p>+ Text Light</p>
-        <p>Hex Code: #C04467</p>
-        <p>Uses: Accents, Overlays</p>
+
+      <div class="u-bg-primary u-text-secondary">
+        <p>Primary Background</p>
+        <p>Class name : .u-text-secondary</p>
+        <p>Hex Code: #AED9AA</p>
+        <p>Uses: Headings and button text</p>
       </div>
     </div>
-    
+
+    <!-- Accent Colors -->
+    <h2>Accent</h2>
+    <div>
+      <div class="u-accent u-text-secondary">
+        <p>Primary Background</p>
+        <p>Class name : .u-accent</p>
+        <p>Hex Code: #AED9AA</p>
+        <p>Uses: Headings and button text</p>
+      </div>
+
+      <div class="u-accent-light u-text-secondary">
+        <p>Primary Background</p>
+        <p>Class name : .u-accent-light</p>
+        <p>Hex Code: #AED9AA</p>
+        <p>Uses: Headings and button text</p>
+      </div>
+    </div>
+
+    <!-- Color Contrast -->
+    <h2>Color Contrast</h2>
+    <div>
+      <div class="u-bg-primary u-text-primary">
+        <p>Primary Background</p>
+        <p>Primary text</p>
+        <p>Contrast Ratio  : 7.33:1 Pass </p>
+      </div>
+
+      <div class="u-bg-secondary u-text-primary">
+        <p>Secondary Background</p>
+        <p>Primary text</p>
+        <p>Contrast Ratio  : 6.61:1 Pass </p>
+      </div>
+
+      <div class="u-bg-primary u-text-secondary">
+        <p>Primary Background</p>
+        <p>Secondary text</p>
+        <p>Contrast Ratio  : 12.59:1 Pass </p>
+      </div>
+
+      <div class="u-bg-secondary u-text-secondary">
+        <p>Secondary Background</p>
+        <p>Secondary text</p>
+        <p>Contrast Ratio  : 11.36:1 Pass </p>
+      </div>
+
+      <div class="u-bg-white u-text-primary">
+        <p>White Background</p>
+        <p>Primary text</p>
+        <p>Contrast Ratio  : 8.34:1 Pass </p>
+      </div>
+
+      <div class="u-bg-white u-text-secondary">
+        <p>White Background</p>
+        <p>Secondary text</p>
+        <p>Contrast Ratio  : 14.33:1 Pass </p>
+      </div>
+
+      <div class="u-accent u-text-secondary">
+        <p>Accent Background</p>
+        <p>Secondary text</p>
+        <p>Contrast Ratio  : 6.48:1 </p>
+      </div>
+
+      <div class="u-accent-light u-text-secondary">
+        <p>Accent Light Background</p>
+        <p>Secondary text</p>
+        <p>Contrast Ratio  : 9.66:1 </p>
+      </div>
 
     </div>
   </section>

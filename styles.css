@@ -7,12 +7,10 @@
   /*Background*/
   --clr-primary-bg: #faeee7;
   --clr-secondary-bg: #c3f0ca;
-
-  /* Extra */ --clr-white-bg: #fffffe;
+  --clr-white-bg: #fffffe;
 
   /*Heading / Button Text */
   --clr-secondary-text: #33272a;
-
 
   /*Paragraph*/
   --clr-primary-text: #594a4e;
@@ -27,10 +25,10 @@
   --body-font-family: 'Lato', sans-serif;
 
   --heading-font-size-h1: 3rem;
-  --heading-font-size-h2: 2.75rem;  
-  --heading-font-size-h3: 2.5rem; 
-  --heading-font-size-h4: 2.25rem;  
-  --heading-font-size-h5: 2rem; 
+  --heading-font-size-h2: 2.75rem;
+  --heading-font-size-h3: 2.5rem;
+  --heading-font-size-h4: 2.25rem;
+  --heading-font-size-h5: 2rem;
   --body-font-size: 1.2rem;
 
   /* Font Weights */
@@ -60,7 +58,6 @@
 
 /* Utility classes */
 
-/* ------------------------------------------------- 1.Color ----------------------------------------------------------------- */
 
 
 /* Background Colors */
@@ -87,16 +84,14 @@
 
 /* Accent Colors */
 .u-accent {
-  color: var(--clr-accent);
+  background-color: var(--clr-accent);
 }
 
 .u-accent-light {
-  color: var(--clr-accen-light);
+  background-color: var(--clr-accen-light);
 }
 
 
-
-/*--------------------------------------------------- 2.Font ---------------------------------------------------------------------*/
 
 /* Utility Class for Font Family */
 .u-ff-serif {
@@ -127,12 +122,8 @@
 }
 
 
-
-
 .cta {
   color: var();
   font-weight: 700;
   /* Bold */
 }
-
-

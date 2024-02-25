@@ -72,7 +72,11 @@ img.close.show {
 }
 
 
-/* Initially hidden menu to be displayed with a mobile-first approach */
+.color-swatch-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
