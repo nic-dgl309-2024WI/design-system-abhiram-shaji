@@ -170,9 +170,8 @@ img.close.show {
 }
 
 /* Add styles for active link */
-nav.navigation a.active {
-    background-color: white; /* Change the color as needed */
-    color: black; /* Change the color as needed */
+.active {
+    background-color: black; /* Change the color as needed */
     border-radius: 40px;
   }
   
