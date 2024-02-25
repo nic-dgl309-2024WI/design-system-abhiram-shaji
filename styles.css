@@ -115,3 +115,108 @@ body, p {
 
 
 
+/* Utility classes */
+
+/* ------------------------------------------------- 1.Color ----------------------------------------------------------------- */
+.c-color-swatch--bg-primary {
+  background-color: var(--clr-primary-bg);
+}
+
+.c-color-swatch--bg-primary-light {
+  background-color: var(--clr-primary-light);
+}
+
+.c-color-swatch--bg-primary-dark {
+  background-color: var(--clr-primary-dark);
+}
+
+/* Accent colors */
+.c-color-swatch--bg-accent {
+  background-color: var(--clr-accent);
+}
+
+.c-color-swatch--bg-accent-light {
+  background-color: var(--clr-accent-light);
+}
+
+.c-color-swatch--bg-accent-dark {
+  background-color: var(--clr-accent-dark);
+}
+
+/* Secondary colors */
+.c-color-swatch--bg-secondary {
+  background-color: var(--clr-secondary-bg);
+}
+
+.c-color-swatch--bg-secondary-light {
+  background-color: var(--clr-secondary-light);
+}
+
+.c-color-swatch--bg-secondary-dark {
+  background-color: var(--clr-secondary-dark);
+}
+
+
+.c-color-swatch--text-primary {
+  color: var(--clr-primary-text);
+}
+
+.c-color-swatch--text-secondary {
+  color: var(--clr-secondary-text);
+}
+
+.c-color-swatch--text-light {
+  color: var(--clr-light-text);
+}
+
+
+.c-color-swatch--text-accent {
+  color: var(--clr-accent);
+}
+
+.c-color-swatch--text-accent-dark {
+  color: var(--clr-accent-dark);
+}
+
+
+
+/*--------------------------------------------------- 2.Font ---------------------------------------------------------------------*/
+
+/* Utility Class for Font Family */
+.u-ff-serif {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.u-ff-sans {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Utility Class for Font Size */
+.u-fs-800 {
+  font-size: 800;
+}
+
+/* Utility Class for Font Weight */
+.u-fw-700 {
+  font-weight: 700;
+}
+
+.u-fw-400 {
+  font-weight: 400;
+}
+
+/* Utility Class for Letter Spacing */
+.u-letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+
+
+
+.cta {
+  color: var();
+  font-weight: 700;
+  /* Bold */
+}
+
+
