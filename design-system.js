@@ -20,3 +20,5 @@ if (page === "about-me.html") {
 } else if (page === "demo-site.html") {
   demoLink.classList.add("active");
 }
+
+

@@ -117,7 +117,7 @@ INDEX
 
 /*Navbar Styles*/
 
-section {
+header {
     padding: 20px;
     display: flex;
     justify-content: space-between;

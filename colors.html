@@ -11,60 +11,61 @@
 
 <body>
 
-  <nav class="navbar c-navbar">
-    <div class="navbar__logo c-navbar__logo">
-      <h2>DESIGN SYSTEM</h2>
+  <header>
+    <div class="logo">
+      <a href="index.html">Design System</a>
     </div>
-    <button id="hamburger-btn" class="navbar__button c-navbar__button">&#9776;</button>
-  </nav>
+    <nav class="navigation">
+      <a href="about-me.html">About Me</a>
+      <a href="">Demo Site</a>
+    </nav>
+  
+    <div class="toggleBox">
+      <a onclick="showMenu()" href="#"><img class="menu" alt="menu" src="images/icons/more.png"><img class="close" src="images/icons/close.png" alt="close"></a>
+    </div>
+  </header>
 
-  <div id="menu" class="menu c-menu">
-    <ul class="menu__list c-menu__list">
-      <li class="menu__item c-menu__item"><a href="about-me.html" class="menu__link c-menu__link">About Me</a></li>
-      <li class="menu__item c-menu__item"><a href="#demo-site" class="menu__link c-menu__link">Demo Site</a></li>
+  <section class="sidebar">
+    <h2>Branding</h2>
+    <ul>
+      <li><a href="colors.html">01 Colours</a></li>
+      <li><a href="typography.html">02 Typography</a></li>
+      <li><a href="#">03 Logo</a></li>
     </ul>
-    <hr>
-    <div class="sidebar">
-      <h2 class="sidebar__title">Branding</h2>
-      <ul class="sidebar__list">
-        <li class="sidebar__item"><a href="colors.html" class="sidebar__link">01 Colours</a></li>
-        <li class="sidebar__item"><a href="typography.html" class="sidebar__link">02 Typography</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">03 Logo</a></li>
-      </ul>
 
-      <h2 class="sidebar__title">Utilities</h2>
-      <ul class="sidebar__list">
-        <li class="sidebar__item"><a href="#" class="sidebar__link">04 Spacing</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">05 Containers</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">06 Images</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">07 Interactive</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">08 Pages</a></li>
-      </ul>
+    <h2>Utilities</h2>
+    <ul>
+      <li><a href="#">04 Spacing</a></li>
+      <li><a href="#">05 Containers</a></li>
+      <li><a href="#">06 Images</a></li>
+      <li><a href="#">07 Interactive</a></li>
+      <li><a href="#">08 Pages</a></li>
+    </ul>
 
-      <h2 class="sidebar__title">Navigation</h2>
-      <ul class="sidebar__list">
-        <li class="sidebar__item"><a href="#" class="sidebar__link">09 Navbar</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">10 Breadcrumbs</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">11 Pagination</a></li>
-      </ul>
+    <h2>Navigation</h2>
+    <ul>
+      <li><a href="#">09 Navbar</a></li>
+      <li><a href="#">10 Breadcrumbs</a></li>
+      <li><a href="#">11 Pagination</a></li>
+    </ul>
 
-      <h2 class="sidebar__title">Blocks</h2>
-      <ul class="sidebar__list">
-        <li class="sidebar__item"><a href="#" class="sidebar__link">12 Hero</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">13 Carousel</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">14 Slats</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">15 Footer</a></li>
-      </ul>
+    <h2>Blocks</h2>
+    <ul>
+      <li><a href="#">12 Hero</a></li>
+      <li><a href="#">13 Carousel</a></li>
+      <li><a href="#">14 Slats</a></li>
+      <li><a href="#">15 Footer</a></li>
+    </ul>
 
-      <h2 class="sidebar__title">Components</h2>
-      <ul class="sidebar__list">
-        <li class="sidebar__item"><a href="#" class="sidebar__link">16 Cards</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">17 Forms</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">18 Accordion</a></li>
-        <li class="sidebar__item"><a href="#" class="sidebar__link">19 Lists</a></li>
-      </ul>
-    </div>
-  </div>
+    <h2>Components</h2>
+    <ul>
+      <li><a href="#">16 Cards</a></li>
+      <li><a href="#">17 Forms</a></li>
+      <li><a href="#">18 Accordion</a></li>
+      <li><a href="#">19 Lists</a></li>
+    </ul>
+
+</section>
 
 
   <section class="container">
