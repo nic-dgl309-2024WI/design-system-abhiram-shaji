@@ -1,24 +1,12 @@
-/*
+/* Navbar Styles */
 
-INDEX
-1.Color
-2.Font
-3.Elements
-4.Navbar
-
-
-*/
-
-
-
-
-/*Navbar Styles*/
-
-.logo_text{
+/* Styles for logo text */
+.logo_text {
     text-decoration: none;
     font-style: bold;
 }
 
+/* Styles for header */
 header {
     padding: 20px;
     display: flex;
@@ -27,10 +15,12 @@ header {
     background: brown;
 }
 
+/* Styles for navigation */
 nav.navigation {
     display: none;
 }
 
+/* Styles for active navigation */
 nav.navigation.active {
     display: flex;
     justify-content: center;
@@ -41,53 +31,59 @@ nav.navigation.active {
     top: 0;
     width: 100%;
     height: 100%;
-    /*Add background temporary*/
+    /* Temporary background color */
     background: brown;
 }
 
-
+/* Styles for navigation links within active state */
 nav.navigation.active a {
     padding: 20px;
-    /*Temp color*/
+    /* Temporary color */
     color: azure;
-    font-size:20px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 }
 
+/* Styles for toggle box image */
 .toggleBox a img {
     filter: invert(1);
 }
 
+/* Styles for hiding menu image */
 img.menu.hide {
     display: none;
 }
 
+/* Styles for showing close image */
 img.close {
     display: none;
 }
 
+/* Styles for showing close image */
 img.close.show {
     display: flex;
 }
 
-/* Add styles for active link */
+/* Styles for active link */
 .active {
     background-color: black; /* Change the color as needed */
     border-radius: 40px;
-  }
-  
+}
+
 
 /* Initially hidden menu to be displayed with a mobile-first approach */
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 800px) {
+    /* Grid layout for large screens */
     .l-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /*navbar for desktop*/
+    /* Styles for navigation on desktop */
+    /* Navbar for desktop */
     nav.navigation {
         display: flex;
     }
@@ -100,12 +96,14 @@ img.close.show {
         text-decoration: none;
     }
 
+    /* Hide toggle box on large screens */
     div.toggleBox {
         display: none;
     }
 }
 
 @media (min-width: 1200px) {
+    /* Adjust grid layout for even larger screens */
     .l-grid {
         grid-template-columns: repeat(3, 1fr);
     }
