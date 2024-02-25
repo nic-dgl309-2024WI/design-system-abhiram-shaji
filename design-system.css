@@ -143,6 +143,7 @@ nav.navigation.active {
     background: brown;
 }
 
+
 nav.navigation.active a {
     padding: 20px;
     /*Temp color*/
@@ -167,6 +168,15 @@ img.close {
 img.close.show {
     display: flex;
 }
+
+/* Add styles for active link */
+nav.navigation a.active {
+    background-color: white; /* Change the color as needed */
+    color: black; /* Change the color as needed */
+    border-radius: 40px;
+  }
+  
+
 /* Initially hidden menu to be displayed with a mobile-first approach */
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/

@@ -6,9 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abhiram Shaji</title>
   <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="design-system.css" />
 </head>
 
 <body class="portfolio">
+
+  <!-- Navbar -->
+
+  <section>
+    <div class="logo">
+      <a href="index.html">Design System</a>
+    </div>
+    <nav class="navigation">
+      <a href="about-me.html"  id="about-link">About Me</a>
+      <a href="" id="demo-link">Demo Site</a>
+    </nav>
+  
+    <div class="toggleBox">
+      <a onclick="showMenu()" href="#"><img class="menu" alt="menu" src="images/icons/more.png"><img class="close" src="images/icons/close.png" alt="close"></a>
+    </div>
+  </section>
+
   <!-- add your name -->
   <h1 class="c-portfolio__name">Hi! My name is Abhiram Shaji</h1>
   <h2 class="c-portfolio__role">I am an Android / Web developer.</h2>
@@ -36,6 +54,8 @@
     <li class="c-portfolio__skill">Patient</li>
     <li class="c-portfolio__skill">Stress Management</li>
   </ul>
+
+  <script src="design-system.js"></script>
 </body>
 
 </html>
