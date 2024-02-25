@@ -117,7 +117,21 @@ INDEX
 
 /*Navbar Styles*/
 
+section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+nav.navigation {
+    display: none;
+}
+
+
+img.close {
+    display: none;
+}
 /* Initially hidden menu to be displayed with a mobile-first approach */
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
