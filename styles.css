@@ -118,67 +118,6 @@ body, p {
 /* Utility classes */
 
 /* ------------------------------------------------- 1.Color ----------------------------------------------------------------- */
-.c-color-swatch--bg-primary {
-  background-color: var(--clr-primary-bg);
-}
-
-.c-color-swatch--bg-primary-light {
-  background-color: var(--clr-primary-light);
-}
-
-.c-color-swatch--bg-primary-dark {
-  background-color: var(--clr-primary-dark);
-}
-
-/* Accent colors */
-.c-color-swatch--bg-accent {
-  background-color: var(--clr-accent);
-}
-
-.c-color-swatch--bg-accent-light {
-  background-color: var(--clr-accent-light);
-}
-
-.c-color-swatch--bg-accent-dark {
-  background-color: var(--clr-accent-dark);
-}
-
-/* Secondary colors */
-.c-color-swatch--bg-secondary {
-  background-color: var(--clr-secondary-bg);
-}
-
-.c-color-swatch--bg-secondary-light {
-  background-color: var(--clr-secondary-light);
-}
-
-.c-color-swatch--bg-secondary-dark {
-  background-color: var(--clr-secondary-dark);
-}
-
-
-.c-color-swatch--text-primary {
-  color: var(--clr-primary-text);
-}
-
-.c-color-swatch--text-secondary {
-  color: var(--clr-secondary-text);
-}
-
-.c-color-swatch--text-light {
-  color: var(--clr-light-text);
-}
-
-
-.c-color-swatch--text-accent {
-  color: var(--clr-accent);
-}
-
-.c-color-swatch--text-accent-dark {
-  color: var(--clr-accent-dark);
-}
-
-
 
 /*--------------------------------------------------- 2.Font ---------------------------------------------------------------------*/
 
