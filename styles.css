@@ -17,8 +17,6 @@
   /*Paragraph*/
   --clr-primary-text: #594a4e;
 
-
-
   /*Button*/
   --clr-accent: #ff8ba7;
   --clr-accen-light: #ffc6c7;
@@ -63,6 +61,40 @@
 /* Utility classes */
 
 /* ------------------------------------------------- 1.Color ----------------------------------------------------------------- */
+
+
+/* Background Colors */
+.u-bg-primary {
+  background-color: var(--clr-primary-bg);
+}
+
+.u-bg-secondary {
+  background-color: var(--clr-secondary-bg);
+}
+
+.u-bg-white {
+  background-color: var(--clr-white-bg);
+}
+
+/* Text Colors */
+.u-text-primary {
+  color: var(--clr-primary-text);
+}
+
+.u-text-secondary {
+  color: var(--clr-secondary-text);
+}
+
+/* Accent Colors */
+.u-accent {
+  color: var(--clr-accent);
+}
+
+.u-accent-light {
+  color: var(--clr-accen-light);
+}
+
+
 
 /*--------------------------------------------------- 2.Font ---------------------------------------------------------------------*/
 
