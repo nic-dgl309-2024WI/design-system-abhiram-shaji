@@ -3,20 +3,25 @@
 :root {
 
   /*Colors*/
-  --clr-primary-text: #1B3A12;
-  --clr-secondary-text: #5A4638;
-  --clr-light-text: #fafafa;
 
-  --clr-primary-bg: #DFF2D8;
-  --clr-primary-light: #AED9AA;
+  /*Background*/
+  --clr-primary-bg: #faeee7;
+  --clr-secondary-bg: #c3f0ca;
 
-  --clr-secondary-bg: #F0EAD6;
-  --clr-secondary-light: #FBF0E1;
-  --clr-secondary-dark: #423D33;
-  
-  --clr-accent: #E0567D;
-  --clr-accent-light: #F4A1B4;
-  --clr-accent-dark: #C04467;
+  /* Extra */ --clr-white-bg: #fffffe;
+
+  /*Heading / Button Text */
+  --clr-secondary-text: #33272a;
+
+
+  /*Paragraph*/
+  --clr-primary-text: #594a4e;
+
+
+
+  /*Button*/
+  --clr-accent: #ff8ba7;
+  --clr-accen-light: #ffc6c7;
 
 
   /* Typefaces */
@@ -52,66 +57,6 @@
   box-sizing: border-box;
 }
 
-
-/* Styles for h1 */
-h1 {
-  font-family: var(--heading-font-family);
-  font-size: var(--heading-font-size-h1);
-  font-weight: var(--heading-font-weight);
-  line-height: var(--heading-line-height);
-  letter-spacing: var(--letter-spacing);
-  color: var(--clr-accent-dark);
-}
-
-/* Styles for h2 */
-h2 {
-  font-family: var(--heading-font-family);
-  font-size: var(--heading-font-size-h2);
-  font-weight: var(--heading-font-weight);
-  line-height: var(--heading-line-height);
-  letter-spacing: var(--letter-spacing);
-  color: var( --clr-accent);
-}
-
-/* Styles for h3 */
-h3 {
-  font-family: var(--heading-font-family);
-  font-size: var(--heading-font-size-h3);
-  font-weight: var(--heading-font-weight);
-  line-height: var(--heading-line-height);
-  letter-spacing: var(--letter-spacing);
-  color: var(--clr-secondary-text);
-}
-
-/* Styles for h4 */
-h4 {
-  font-family: var(--heading-font-family);
-  font-size: var(--heading-font-size-h4);
-  font-weight: var(--heading-font-weight);
-  line-height: var(--heading-line-height);
-  letter-spacing: var(--letter-spacing);
-  color: var(--clr-secondary-dark);
-}
-
-/* Styles for h5 */
-h5 {
-  font-family: var(--heading-font-family);
-  font-size: var(--heading-font-size-h5);
-  font-weight: var(--heading-font-weight);
-  line-height: var(--heading-line-height);
-  letter-spacing: var(--letter-spacing);
-  color: var(--clr-secondary-dark);
-}
-
-/* Styles for body text */
-body, p {
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size);
-  font-weight: var(--body-font-weight);
-  line-height: var(--body-line-height);
-  letter-spacing: var(--letter-spacing);
-  color: var(--clr-primary-text);
-}
 
 
 
