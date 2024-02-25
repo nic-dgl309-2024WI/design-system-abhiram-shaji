@@ -122,15 +122,50 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: brown;
 }
 
 nav.navigation {
     display: none;
 }
 
+nav.navigation.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*Add background temporary*/
+    background: brown;
+}
+
+nav.navigation.active a {
+    padding: 20px;
+    /*Temp color*/
+    color: azure;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.toggleBox a img {
+    filter: invert(1);
+}
+
+img.menu.hide {
+    display: none;
+}
 
 img.close {
     display: none;
+}
+
+img.close.show {
+    display: flex;
 }
 /* Initially hidden menu to be displayed with a mobile-first approach */
 
