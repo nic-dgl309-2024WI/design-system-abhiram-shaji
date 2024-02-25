@@ -74,10 +74,19 @@ img.close.show {
 
 .color-swatch-container, .typography-container {
     display: grid;
-    padding: 5%;
+    padding: 3%;
     gap: 5%;
 }
 
+.typography-container-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.typography-container-item > * {
+    padding: 5px;
+}
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
