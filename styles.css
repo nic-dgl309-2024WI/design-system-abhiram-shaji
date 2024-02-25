@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
 
@@ -22,13 +23,8 @@
 
   /* Typefaces */
   --heading-font-family: 'Josefin Sans', sans-serif;
-  --body-font-family: 'Lato', sans-serif;
+  --body-font-family: 'Montserrat', sans-serif;
 
-  --heading-font-size-h1: 3rem;
-  --heading-font-size-h2: 2.75rem;
-  --heading-font-size-h3: 2.5rem;
-  --heading-font-size-h4: 2.25rem;
-  --heading-font-size-h5: 2rem;
   --body-font-size: 1.2rem;
 
   /* Font Weights */
@@ -93,33 +89,7 @@
 
 
 
-/* Utility Class for Font Family */
-.u-ff-serif {
-  font-family: 'Josefin Sans', sans-serif;
-}
 
-.u-ff-sans {
-  font-family: 'Lato', sans-serif;
-}
-
-/* Utility Class for Font Size */
-.u-fs-800 {
-  font-size: 800;
-}
-
-/* Utility Class for Font Weight */
-.u-fw-700 {
-  font-weight: 700;
-}
-
-.u-fw-400 {
-  font-weight: 400;
-}
-
-/* Utility Class for Letter Spacing */
-.u-letter-spacing-2 {
-  letter-spacing: 2px;
-}
 
 
 .cta {
