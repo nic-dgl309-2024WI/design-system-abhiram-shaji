@@ -46,7 +46,7 @@ nav.navigation.active a {
 
 /* Styles for toggle box image */
 .toggleBox a img {
-    filter: invert(1);
+    filter: invert(0);
 }
 
 /* Styles for hiding menu image */
