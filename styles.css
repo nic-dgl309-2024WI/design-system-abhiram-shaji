@@ -85,6 +85,13 @@ a {
   margin-bottom: 1rem;
 }
 
+/* Padding */
+
+.l-p {
+  padding: 1rem;
+}
+
+
 /* Background Colors */
 .u-bg-primary {
   background-color: var(--clr-primary-bg);
