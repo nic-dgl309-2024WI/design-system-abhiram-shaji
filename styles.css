@@ -143,6 +143,10 @@ a {
   display: grid;
 }
 
+.l-grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* Background Colors */
 .u-bg-primary {
   background-color: var(--clr-primary-bg);
