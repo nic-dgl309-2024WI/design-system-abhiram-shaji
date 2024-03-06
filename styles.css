@@ -107,6 +107,11 @@ a {
   padding-left: 1rem;
 }
 
+.l-px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /* Background Colors */
 .u-bg-primary {
   background-color: var(--clr-primary-bg);
