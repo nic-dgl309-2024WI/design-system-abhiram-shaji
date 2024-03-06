@@ -138,6 +138,11 @@ a {
   align-items: center;
 }
 
+/* Grid */
+.l-grid {
+  display: grid;
+}
+
 /* Background Colors */
 .u-bg-primary {
   background-color: var(--clr-primary-bg);
