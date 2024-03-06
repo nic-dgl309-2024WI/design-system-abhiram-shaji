@@ -147,6 +147,10 @@ a {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.l-grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* Background Colors */
 .u-bg-primary {
   background-color: var(--clr-primary-bg);
