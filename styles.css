@@ -151,6 +151,20 @@ a {
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* Container for mobile */
+.container {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+
 /* Background Colors */
 .u-bg-primary {
   background-color: var(--clr-primary-bg);
