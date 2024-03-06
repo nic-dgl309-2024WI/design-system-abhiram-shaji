@@ -85,6 +85,11 @@ img.close.show {
     background-color: var(--clr-accen-light);
 }
 
+/*For spacing page example divs*/
+.spacing-example-div {
+    min-height: 100px;
+}
+
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 800px) {
