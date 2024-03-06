@@ -112,6 +112,11 @@ a {
   padding-right: 1rem;
 }
 
+.l-py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 /* Background Colors */
 .u-bg-primary {
   background-color: var(--clr-primary-bg);
