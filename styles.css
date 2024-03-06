@@ -152,6 +152,10 @@ a {
 }
 
 /* Container for mobile */
+.full-width {
+  width: 100%;
+}
+
 .container {
   max-width: 100%;
   padding: 0 1rem;
