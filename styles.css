@@ -99,6 +99,10 @@ a {
   padding-bottom: 1rem;
 }
 
+.l-pr-1 {
+  padding-right: 1rem;
+}
+
 /* Background Colors */
 .u-bg-primary {
   background-color: var(--clr-primary-bg);
