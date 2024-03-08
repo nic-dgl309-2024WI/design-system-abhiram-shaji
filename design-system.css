@@ -8,6 +8,11 @@
 
 /* Styles for header */
 header {
+    position: fixed; /* Fix the position of the header to the top of the viewport */
+    top: 0; /* Position the header at the very top of the viewport */
+    left: 0; /* Align the header to the left to ensure it spans the full width */
+    width: 100%; /* Ensure the header spans the full width of the viewport */
+    z-index: 1000; /* Ensure the header stays above other content */
     padding: 20px;
     display: flex;
     justify-content: space-between;
