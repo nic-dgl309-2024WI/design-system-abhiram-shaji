@@ -8,11 +8,6 @@
 
 /* Styles for header */
 header {
-    position: fixed; /* Fix the position of the header to the top of the viewport */
-    top: 0; /* Position the header at the very top of the viewport */
-    left: 0; /* Align the header to the left to ensure it spans the full width */
-    width: 100%; /* Ensure the header spans the full width of the viewport */
-    z-index: 1000; /* Ensure the header stays above other content */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -20,51 +15,42 @@ header {
     background-color: var(--clr-accent);
 }
 
-/*Styles for sidebar*/
-.sidebar {
-    position: fixed;
-    top: 100px; /*header's height */
-    left: 0;
-    width: 200px;
-    height: 100%; /* Full height */
-    overflow-y: auto; /* Enable scrolling if the content is taller than the screen */
-    z-index: 500; /* Ensure the sidebar is above other content but below the fixed header */
-}
-
-
-
-/*Avoid collision with sidebar*/
-.main-content {
-    margin-left: 200px;
-    margin-top: 100px;
-}
-
-
-
 /* Styles for navigation */
 nav.navigation {
     display: none;
+}
+
+.sidebar {
+    background-color: var(--clr-accent);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sidebar .sidebar_item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
 
 /* Styles for active navigation */
 nav.navigation.active {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    /* Temporary background color */
     background-color: var(--clr-accent);
 }
 
 /* Styles for navigation links within active state */
 nav.navigation.active a {
     padding: 20px;
-    /* Temporary color */
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -73,6 +59,10 @@ nav.navigation.active a {
 /* Styles for toggle box image */
 .toggleBox a img {
     filter: invert(0);
+}
+
+img.menu {
+    display: block;
 }
 
 /* Styles for hiding menu image */
@@ -108,7 +98,7 @@ img.close.show {
 }
 
 .active-page {
-    background-color: var(--clr-accen-light);
+    color: var(--clr-accen-light);
 }
 
 /*For spacing page example divs*/
@@ -119,6 +109,39 @@ img.close.show {
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 800px) {
+
+    
+    body {
+        padding-top: 80px; 
+    }
+    
+    header {
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        z-index: 1000; 
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--clr-accent);
+    }
+    
+    /* Additional styles for making sidebar sticky */
+    .sidebar {
+        position: fixed; 
+        top: 80px; 
+        left: 0;
+        width: 250px; 
+        height: 100%;
+        overflow-y: auto; 
+    }
+
+    .main-content {
+        margin-left: 250px; 
+    }
+
     /* Grid layout for large screens */
     .l-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -138,7 +161,7 @@ img.close.show {
     }
 
     a:hover  {
-        background-color: var(--clr-primary-bg);
+        color: var(--clr-accen-light);
     }
 
     /* Hide toggle box on large screens */
