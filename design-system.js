@@ -4,6 +4,3 @@ function showMenu() {
     document.querySelector('.close').classList.toggle('show');
 }
 
-
-
-
