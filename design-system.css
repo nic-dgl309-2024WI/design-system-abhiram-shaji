@@ -20,6 +20,27 @@ header {
     background-color: var(--clr-accent);
 }
 
+/*Styles for sidebar*/
+.sidebar {
+    position: fixed;
+    top: 100px; /*header's height */
+    left: 0;
+    width: 200px;
+    height: 100%; /* Full height */
+    overflow-y: auto; /* Enable scrolling if the content is taller than the screen */
+    z-index: 500; /* Ensure the sidebar is above other content but below the fixed header */
+}
+
+
+
+/*Avoid collision with sidebar*/
+.main-content {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+
+
 /* Styles for navigation */
 nav.navigation {
     display: none;
