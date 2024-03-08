@@ -98,7 +98,7 @@ img.close.show {
 }
 
 .active-page {
-    color: var(--clr-accen-light);
+    color: var(--clr-accen-dark);
 }
 
 /*For spacing page example divs*/
