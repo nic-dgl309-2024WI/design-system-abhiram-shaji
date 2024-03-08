@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Colors</title>
+  <title>Spacing</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./design-system.css">
 </head>
@@ -12,7 +12,7 @@
 <body>
 
   <!-- Navbar -->
-  <header class="u-bg-secondary">
+  <header class="u-bg-secondary u-bg-primary">
     <div class="logo">
       <a class="logo_text u-text-secondary u-font-josefin-sans" href="index.html">
         <h2 class="u-heading">Design System</h2>
@@ -25,14 +25,14 @@
       <section class="sidebar u-bg-white">
         <h2 class="sidebar_item u-text-secondary u-heading">Branding</h2>
         <ul class="sidebar_item">
-          <li><a class="u-text-primary u-body-text active-page" href="colors.html">01 Colours</a></li>
+          <li><a class="u-text-primary u-body-text" href="colors.html">01 Colours</a></li>
           <li><a class="u-text-primary u-body-text" href="typography.html">02 Typography</a></li>
           <li><a class="u-text-primary u-body-text" href="#">03 Logo</a></li>
         </ul>
     
         <h2 class="sidebar_item u-text-secondary u-heading">Utilities</h2>
         <ul class="sidebar_item">
-          <li><a class="u-text-primary u-body-text" href="spacing.html">04 Spacing</a></li>
+          <li><a class="u-text-primary u-body-text active-page" href="spacing.html">04 Spacing</a></li>
           <li><a class="u-text-primary u-body-text" href="containers.html">05 Containers</a></li>
           <li><a class="u-text-primary u-body-text" href="#">06 Images</a></li>
           <li><a class="u-text-primary u-body-text" href="#">07 Interactive</a></li>
@@ -144,70 +144,6 @@
       <div class="l-py-1 spacing-example-div u-bg-secondary u-body-text u-text-primary">
         <p>This div has a padding-top and padding-bottom of 1rem.</p>
         <p>Classes: l-py-1</p>
-      </div>
-    </section>
-
-    <section>
-      <div class="l-flex l-justify-center l-align-center spacing-example-div u-bg-primary u-body-text u-text-primary">
-        <p>This flex container centers its child paragraph horizontally and vertically within a 200px tall container.
-        </p>
-        <p>----Item 1----</p>
-        <p>----Item 2----</p>
-        <p>Classes: l-flex l-justify-center l-align-center</p>
-      </div>
-
-      <!-- Flex Row -->
-      <div class="l-flex l-flex-row spacing-example-div u-bg-secondary u-body-text u-text-primary">
-        <p>Row: Items are laid out in a row, showing how text content aligns side by side.</p>
-        <p>----Item 1----</p>
-        <p>----Item 2----</p>
-        <p>Classes: l-flex l-flex-row</p>
-      </div>
-
-      <!-- Flex Column -->
-      <div class="l-flex l-flex-col spacing-example-div u-bg-primary u-body-text u-text-primary">
-        <p>Column: Items are stacked vertically, illustrating a columnar arrangement of text content.</p>
-        <p>Item 1</p>
-        <p>Item 2</p>
-        <p>Classes: l-flex l-flex-col</p>
-      </div>
-
-      <div class="l-grid l-grid-cols-2 spacing-example-div u-bg-secondary u-body-text u-text-primary">
-        <p>This grid layout divides the content into two columns, evenly distributing the space.</p>
-        <p>The second column's text demonstrates the equal division.</p>
-        <p>Classes: l-grid l-grid-cols-2</p>
-      </div>
-
-      <div class="l-grid l-grid-cols-3 spacing-example-div u-bg-primary u-body-text u-text-primary">
-        <p>Column 1: This grid features three columns, showcasing how content can be organized.</p>
-        <p>Column 2: Each column receives an equal fraction of the container's width.</p>
-        <p>Column 3: The use of columns is effective for presenting related information side by side.</p>
-        <p>Classes: l-grid l-grid-cols-3</p>
-      </div>
-    </section>
-
-    <section>
-      <!-- Full-width section, stretches 100% of the viewport width -->
-      <div class="full-width spacing-example-div u-bg-secondary u-body-text u-text-primary">
-        <p>This section stretches to the full width of the viewport.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.</p>
-        <p>Classes: full-width</p>
-      </div>
-
-      <!-- Container, will have padding on mobile and be centered with a max-width of 1200px on wider screens -->
-      <div class="container spacing-example-div u-bg-primary u-body-text u-text-primary">
-        <p>This section is within a container that adds padding on the sides on mobile devices, and is centered with a
-          maximum width of 1200px on screens wider than 768px.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.</p>
-        <p>Classes: container</p>
       </div>
     </section>
   </div>
