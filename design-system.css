@@ -81,7 +81,7 @@ img.close.show {
 }
 
 
-.color-swatch-container, .typography-container {
+.main-content  {
     display: grid;
     padding: 3%;
     gap: 5%;
