@@ -35,6 +35,7 @@
 
 body {
   line-height: 1.5rem;
+  font-family: var(--body-font-family);
 }
 
 
@@ -47,6 +48,7 @@ body {
   padding: 0;
   list-style: none;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 a {
@@ -273,3 +275,82 @@ a {
   font-weight: 700;
 }
 
+/*----------------------------------------------------------- index styles -------------------------------------------------------------------------------*/
+
+nav {
+  height: 75px;
+  width: 100%;
+  background-color: #33272a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin: 0;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.logo-txt {
+  font-size: 30px;
+  line-height: 75px;
+  padding-left: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-list {
+  position: fixed;
+  width: 100%;
+  height: 0vh;
+  top: 75px;
+  background: #2a3b51;
+  float: right;
+  text-align: center;
+  transition: all .5s;
+}
+
+.nav-list li {
+  opacity: 0;
+  line-height: 30px;
+  margin: 50px 0;
+  transition: all .5s;
+}
+
+.nav-list li a {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav-list li a.active, .nav-list li a:hover{
+  color: #0279e5;
+  transition: 0.5s;
+}
+
+.hamburger-btn {
+  display: block;
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 75px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .nav-list {
+  height: 100vh;
+}
+
+#check:checked ~ .nav-list li {
+  opacity: 1;
+}
