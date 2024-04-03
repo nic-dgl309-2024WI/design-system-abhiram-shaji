@@ -164,12 +164,6 @@ a {
   padding: 0 1rem;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-}
 
 
 /* Background Colors */
@@ -280,7 +274,6 @@ a {
 nav {
   height: 75px;
   width: 100%;
-  background-color: #33272a;
   display: flex;
   justify-content: space-between;
 }
@@ -294,22 +287,16 @@ nav {
 
 .logo {
   margin-left: 20px;
+  height: 100%;
 }
 
-.logo-txt {
-  font-size: 30px;
-  line-height: 75px;
-  padding-left: 10px;
-  font-weight: bold;
-  color: white;
-}
 
 .nav-list {
   position: fixed;
   width: 100%;
   height: 0vh;
   top: 75px;
-  background: #2a3b51;
+
   float: right;
   text-align: center;
   transition: all .5s;
@@ -323,13 +310,13 @@ nav {
 }
 
 .nav-list li a {
-  color: white;
+  color: var(--clr-primary-text);
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .nav-list li a.active, .nav-list li a:hover{
-  color: #0279e5;
+  color: var(--clr-accent);
   transition: 0.5s;
 }
 
@@ -357,6 +344,14 @@ nav {
 
 /*----------------------------------------------- Desktop view -------------------------------------------------------------------------*/
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+
 @media only screen and (min-width: 900px) {
   .logo-container {
     margin-left: 25px;
@@ -364,7 +359,6 @@ nav {
 
   nav {
     height: 100px;
-    background-color: transparent;
   }
 
   .hamburger-btn {
@@ -375,7 +369,6 @@ nav {
     position: relative;
     height: 100px;
     top:0;
-    background-color: none;
     float: right;
     text-align: right;
     margin-right: 25px;
@@ -391,6 +384,6 @@ nav {
   }
 
   .nav-list li a.active, .nav-list li a:hover{
-    color: #fffffe;
+    color: var(--clr-accent);
   }
 }
