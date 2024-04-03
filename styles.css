@@ -599,26 +599,37 @@ footer {
     /* Align items to the start of the flex container */
   }
 
-  .accordion-item {
+  .l-flex-row-desktop {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 1rem;
+  }
+
+  .accordion-item {
+    flex: 1; /* Each item takes equal space */
+    margin-right: 20px; /* Add some space between items */
+    display: block; /* Default display */
   }
 
   .accordion-toggle {
-    flex-grow: 1;
-    text-align: left;
-    margin-right: 1rem; /* Add some space between the toggle and content */
+    display: block; /* Display as block to take full width */
+    margin: 0; /* Remove margins */
+    width: 100%; /* Full width */
+    cursor: default; /* No pointer cursor on desktop */
   }
 
   .accordion-content {
-    display: block; /* Always show content in desktop view */
-    max-width: 60%; /* Limit width of content to not stretch too much */
+    display: block; /* Content is always visible */
   }
 
   .accordion-icon {
     display: none; /* Hide the icon on desktop screens */
   }
+}
+
+/* Ensure the last accordion item doesn't have a right margin */
+.l-flex-row-desktop .accordion-item:last-child {
+  margin-right: 0;
+}
 
 }
