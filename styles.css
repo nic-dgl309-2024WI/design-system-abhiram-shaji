@@ -55,6 +55,12 @@ a {
   text-decoration: none;
 }
 
+/* CSS */
+.text-center {
+  text-align: center;
+}
+
+
 /* Utility classes */
 
 /* Margins */
