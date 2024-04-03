@@ -142,7 +142,61 @@
     <!-- testimonial Section -->
 
     <section class="l-flex l-flex-col l-justify-center l-align-center l-p l-m">
-        <h2 class="l-my-1">Hear From Our Plant Parents</h2>
+        <div class="form-container l-flex l-flex-col l-py-1">
+
+            <!-- Accordion Item 1 -->
+            <div class="accordion-item">
+                <button class="accordion-toggle u-heading u-heading-2"
+                    onclick="toggleAccordion('accordion-content-1', this)">
+                    Mark Thompson
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </button>
+                <div id="accordion-content-1" class="accordion-content u-body-text">
+                    <p class="u-text-primary">"As a gardening enthusiast, I have visited many nurseries, but the Outback
+                        Nursery stands out for its unique selection of native plants. Their knowledgeable staff helped
+                        me choose the perfect shrubs for my arid garden. The quality and health of their plants are
+                        exceptional. Highly recommended for anyone looking to add some native beauty to their
+                        landscape!"</p>
+                    <p class="u-text-secondary">- John Doe, CEO of Acme Corp</p>
+                </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="accordion-item">
+                <button class="accordion-toggle u-heading u-heading-2"
+                    onclick="toggleAccordion('accordion-content-2', this)">
+                    Emily Jenkins
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </button>
+                <div id="accordion-content-2" class="accordion-content u-body-text">
+                    <p class="u-text-primary">"I recently moved to the area and wanted to create a garden that reflects
+                        the local flora. Outback Nursery offered me not just plants but also valuable advice on
+                        sustainable gardening. Their passion for conservation and the variety of native plants they have
+                        is impressive. My garden is now thriving, thanks to their top-notch plants and guidance."</p>
+                    <p class="u-text-secondary">- Jane Smith, Founder of Startup XYZ</p>
+                </div>
+            </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="accordion-item">
+                <button class="accordion-toggle u-heading u-heading-2"
+                    onclick="toggleAccordion('accordion-content-3', this)">
+                    Susan Harper
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </button>
+                <div id="accordion-content-3" class="accordion-content u-body-text">
+                    <p class="u-text-primary">"Finding Outback Nursery was a game-changer for my landscaping business.
+                        The diversity and quality of their native plant selection are unparalleled. Their staff is not
+                        only knowledgeable but also genuinely enthusiastic about helping me find the right plants for my
+                        projects. I've received numerous compliments from clients on the beautiful, resilient plants
+                        sourced from Outback Nursery. They truly are the best in the region for anyone serious about
+                        native gardening!"</p>
+                    <p class="u-text-secondary">- Alex Johnson, Project Manager at Innovative Solutions</p>
+                </div>
+            </div>
+
+        </div>
+
 
     </section>
 
@@ -161,6 +215,7 @@
         <h4>© 2024 Outback Nursery. All rights reserved.</h4>
     </footer>
 
+    <script src="./app.js"></script>
 
 </body>
 

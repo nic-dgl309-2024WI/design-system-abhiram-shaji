@@ -468,6 +468,51 @@ footer {
 }
 
 
+/*--------------------------------------------------------- Accordin ------------------------------------------------------------*/
+
+/* Accordion base */
+.accordion-item {
+  margin-top: 1rem;
+  background-color: rgba(195, 240, 202, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.accordion-toggle {
+  width: 100%;
+  text-align: left;
+  padding: 1rem; /* Default padding */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-toggle:hover {
+  background-color: var(--clr-accen-light);
+}
+
+.accordion-content {
+  display: none;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Icon rotation */
+.accordion-icon.rotate {
+  transform: rotate(180deg);
+}
+
+
 /*----------------------------------------------- Desktop view -------------------------------------------------------------------------*/
 
 
@@ -553,4 +598,27 @@ footer {
     align-items: flex-start;
     /* Align items to the start of the flex container */
   }
+
+  .accordion-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .accordion-toggle {
+    flex-grow: 1;
+    text-align: left;
+    margin-right: 1rem; /* Add some space between the toggle and content */
+  }
+
+  .accordion-content {
+    display: block; /* Always show content in desktop view */
+    max-width: 60%; /* Limit width of content to not stretch too much */
+  }
+
+  .accordion-icon {
+    display: none; /* Hide the icon on desktop screens */
+  }
+
 }
