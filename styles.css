@@ -365,10 +365,25 @@ nav {
 /*----------------------------------------------- Desktop view -------------------------------------------------------------------------*/
 
 @media screen and (min-width: 768px) {
+  .hero-p {
+    max-width: 70%;
+    text-align: left;
+  }
+
+  .hero-container {
+    align-items: flex;
+    flex-direction: row;
+  }
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .c-card-hero {
+    max-width: 60%;
+  }
+
 }
 
 
