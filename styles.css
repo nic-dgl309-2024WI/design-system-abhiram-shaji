@@ -625,11 +625,11 @@ footer {
   .accordion-icon {
     display: none; /* Hide the icon on desktop screens */
   }
-}
-
-/* Ensure the last accordion item doesn't have a right margin */
+  /* Ensure the last accordion item doesn't have a right margin */
 .l-flex-row-desktop .accordion-item:last-child {
   margin-right: 0;
 }
 
+
 }
+
