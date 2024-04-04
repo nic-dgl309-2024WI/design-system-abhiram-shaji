@@ -6,24 +6,28 @@
   /*Colors*/
 
   /*Background*/
-  --clr-primary-bg: #faeee7;
-  --clr-secondary-bg: #c3f0ca;
-  --clr-white: #fffffe;
+  --clr-primary-bg: #fffffe;
+  --clr-secondary-bg: #fffffe;
+  --clr-white: #191919;
   --clr-black: #191919;
 
   /*Heading / Button Text */
-  --clr-secondary-text: #33272a;
+  --clr-secondary-text: #191919;
 
   /*Paragraph*/
-  --clr-primary-text: #594a4e;
+  --clr-primary-text: #191919;
 
   /*Button*/
   --clr-accent: #ff8ba7;
   --clr-accent-light: #ffc6c7;
-  --clr-accent-dark: #AA336A;
+  --clr-accent-dark: #c3f0ca;
 
   /* Gradient */
-  --overlay-gradient: linear-gradient(rgba(195, 240, 202, 0.9), rgba(195, 240, 202, 0.9));
+  --overlay-gradient: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+
+  /* Box shadow */
+  --box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+
 
   /* Typefaces */
   --heading-font-family: 'Josefin Sans', sans-serif;
@@ -291,7 +295,7 @@ a {
 }
 
 .hero-bg {
-  background-image: url('/images/backgrounds/hero-welcome.jpg');
+  background-image: url('/images/backgrounds/hero-welcome.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -327,9 +331,9 @@ a {
 
 .c-card {
   margin-top: 1rem;
-  background-color: rgba(195, 240, 202, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
   /* Horizontal offset, vertical offset, blur radius, color */
 }
 
@@ -376,7 +380,7 @@ nav {
 }
 
 .nav-list li a {
-  color: var(--clr-white);
+  color: var(--clr-secondary-text);
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -390,7 +394,7 @@ nav {
 .hamburger-btn {
   display: block;
   font-size: 30px;
-  color: white;
+  color: var(--clr-secondary-text);
   float: right;
   line-height: 75px;
   margin-right: 40px;
@@ -435,7 +439,7 @@ nav {
 
 .button:hover {
   background-color: var(--clr-accent-light);
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  box-shadow: var(--box-shadow);
   transform: translateY(-2px);
 }
 
@@ -485,9 +489,8 @@ footer {
 /* Accordion base */
 .accordion-item {
   margin-top: 1rem;
-  background-color: rgba(195, 240, 202, 0.8);
   border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
   transition: background-color 0.3s ease-in-out;
 }
 
