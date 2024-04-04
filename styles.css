@@ -22,6 +22,8 @@
   --clr-accent-light: #ffc6c7;
   --clr-accent-dark: #AA336A;
 
+  /* Gradient */
+  --overlay-gradient: linear-gradient(rgba(195, 240, 202, 0.9), rgba(195, 240, 202, 0.9));
 
   /* Typefaces */
   --heading-font-family: 'Josefin Sans', sans-serif;
@@ -296,28 +298,28 @@ a {
 }
 
 .explore-bg {
-  background-image: linear-gradient(rgba(195, 240, 202, 0.9), rgba(195, 240, 202, 0.9)), url('/images/backgrounds/explore-bg.webp');
+  background-image: var(--overlay-gradient), url('/images/backgrounds/explore-bg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .giftcard-bg {
-  background: linear-gradient(rgba(195, 240, 202, 0.9), rgba(195, 240, 202, 0.9)), url('/images/backgrounds/giftcard-bg.webp');
+  background: var(--overlay-gradient), url('/images/backgrounds/giftcard-bg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .social-bg {
-  background-image: linear-gradient(rgba(195, 240, 202, 0.9), rgba(195, 240, 202, 0.9)), url('/images/backgrounds/social-bg.webp');
+  background-image: var(--overlay-gradient), url('/images/backgrounds/social-bg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .products-bg {
-  background-image: linear-gradient(rgba(195, 240, 202, 0.9), rgba(195, 240, 202, 0.9)), url('/images/backgrounds/products-bg.webp');
+  background-image: var(--overlay-gradient), url('/images/backgrounds/products-bg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
