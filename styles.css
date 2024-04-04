@@ -20,10 +20,10 @@
   /*Button*/
   --clr-accent: #ff8ba7;
   --clr-accent-light: #ffc6c7;
-  --clr-accent-dark: #c3f0ca;
+  --clr-accent-dark: #e4d5b7;
 
   /* Gradient */
-  --overlay-gradient: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+  --overlay-gradient: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
 
   /* Box shadow */
   --box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
@@ -324,6 +324,20 @@ a {
 
 .products-bg {
   background-image: var(--overlay-gradient), url('/images/backgrounds/products-bg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonials-bg {
+  background-image: var(--overlay-gradient), url('/images/backgrounds/testimonials-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-bg {
+  background-image: var(--overlay-gradient), url('/images/backgrounds/contact-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
