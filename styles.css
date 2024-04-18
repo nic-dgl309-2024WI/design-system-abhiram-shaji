@@ -344,13 +344,35 @@ a {
 }
 
 .c-card {
-  margin-top: 1rem;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
-  /* Horizontal offset, vertical offset, blur radius, color */
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .05), 0 20px 50px 0 rgba(0, 0, 0, .1);
+	border-radius: 15px;
+	overflow: hidden;
+	padding: 1.25rem;
+	position: relative;
+	transition: .15s ease-in;
+	
+	&:hover, &:focus-within {
+		box-shadow: 0 0 0 2px #16C79A, 0 10px 60px 0 rgba(0, 0, 0, .1);
+		transform: translateY(-5px);
+	}
 }
 
+.card__image-container {
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card_image {
+	max-width: 100%;
+	display: block;
+}
+
+.white-overlay {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  border-radius: 10px;
+  width: 100%;
+  padding: 2%;
+}
 
 /*----------------------------------------------------------- Navbar styles -------------------------------------------------------------------------------*/
 
