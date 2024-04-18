@@ -26,10 +26,12 @@ img.close.show {
 
 .design-system-content {
     display: grid;
-    padding: 3%;
+    padding: 3% 3% 0 3%;
+    padding-bottom: 0%;
     gap: 5%;
     margin-left: 10%;
     background-color: gray;
+    padding-top: 10%;
 }
 
 .typography-container-item {
@@ -53,6 +55,9 @@ img.close.show {
 
 
 
+
+
+
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 800px) {
@@ -60,7 +65,7 @@ img.close.show {
     
 
 
-    .main-content {
+    .design-system-content {
         margin-left: 250px; 
     }
 
