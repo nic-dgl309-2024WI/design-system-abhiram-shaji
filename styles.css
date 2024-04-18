@@ -299,6 +299,8 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 25%;
+  padding-bottom: 20%;
 }
 
 .explore-bg {
@@ -382,6 +384,8 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: var(--clr-accent-dark);
+  position: fixed;
+  z-index: 1000; 
 }
 
 .logo-container {
@@ -609,6 +613,9 @@ footer {
   .logo-container {
     margin-left: 25px;
   }
+
+/*----------------------------------------------- Desktop Nav -------------------------------------------------------------------------*/
+
 
   nav {
     height: 100px;

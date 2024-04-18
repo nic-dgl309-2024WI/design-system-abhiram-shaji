@@ -7,20 +7,29 @@
   <title>Spacing</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./design-system.css">
+  <script src="https://kit.fontawesome.com/df407aa6ef.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
   <!-- Navbar -->
-  <header class="u-bg-secondary u-bg-primary">
-    <div class="logo">
-      <a class="logo_text u-text-secondary u-font-josefin-sans" href="index.html">
-        <h2 class="u-heading">Design System</h2>
-      </a>
-    </div>
-    <nav class="navigation">
-      <a class="navigation_item u-text-secondary u-body-text" href="about-me.html">About Me</a>
-      <a class="navigation_item u-text-secondary u-body-text" href="">Demo Site</a>
+  <header>
+    <nav class="u-font-montserrat u-font-semibold">
+        <a href="/index.html" class="logo-container">
+            <img class="logo" src="images/logo.png" alt="outback nursery logo">
+        </a>
+        <input type="checkbox" id="check">
+        <label for="check" class="hamburger-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="u-text-primary nav-list u-bg-primary">
+            <li><a href="/about-me.html">about me</a></li>
+            <li><a href="/index.html">Demo Site</a></li>
+
+        </ul>
+    </nav>
+</header>
 
       <section class="sidebar u-bg-white">
         <h2 class="sidebar_item u-text-secondary u-heading">Branding</h2>
@@ -63,16 +72,9 @@
         </ul>
       </section>
 
-    </nav>
-
-    <div class="toggleBox">
-      <a onclick="showMenu()" href="#" class="u-text-secondary"><img class="menu" alt="menu"
-          src="images/icons/more.png"><img class="close" src="images/icons/close.png" alt="close"></a>
-    </div>
-  </header>
 
   <!-- Spacing properties -->
-  <div class="main-content">
+  <div class="design-system-content">
     <section>
       <div class="l-m spacing-example-div u-bg-primary u-body-text u-text-primary">
         <p>This div has a margin of 1rem on all sides.</p>
@@ -148,7 +150,7 @@
     </section>
   </div>
 
-  <script src="./design-system.js"></script>
+  <script src="./app.js"></script>
 </body>
 
 </html>

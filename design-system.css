@@ -1,60 +1,3 @@
-/* Navbar Styles */
-
-/* Styles for logo text */
-.logo_text {
-    text-decoration: none;
-    font-style: bold;
-}
-
-/* Styles for header */
-header {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--clr-accent);
-}
-
-/* Styles for navigation */
-nav.navigation {
-    display: none;
-}
-
-.sidebar {
-    background-color: var(--clr-accent);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-
-.sidebar .sidebar_item {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-
-/* Styles for active navigation */
-nav.navigation.active {
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--clr-accent);
-}
-
-/* Styles for navigation links within active state */
-nav.navigation.active a {
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
 
 /* Styles for toggle box image */
 .toggleBox a img {
@@ -81,10 +24,12 @@ img.close.show {
 }
 
 
-.main-content  {
+.design-system-content {
     display: grid;
     padding: 3%;
     gap: 5%;
+    margin-left: 10%;
+    background-color: gray;
 }
 
 .typography-container-item {
@@ -106,37 +51,14 @@ img.close.show {
     min-height: 100px;
 }
 
+
+
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 800px) {
 
     
-    body {
-        padding-top: 80px; 
-    }
-    
-    header {
-        position: fixed; 
-        top: 0; 
-        left: 0; 
-        width: 100%; 
-        z-index: 1000; 
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: var(--clr-accent);
-    }
-    
-    /* Additional styles for making sidebar sticky */
-    .sidebar {
-        position: fixed; 
-        top: 80px; 
-        left: 0;
-        width: 250px; 
-        height: 100%;
-        overflow-y: auto; 
-    }
+
 
     .main-content {
         margin-left: 250px; 
@@ -149,16 +71,7 @@ img.close.show {
 
     /* Styles for navigation on desktop */
     /* Navbar for desktop */
-    nav.navigation {
-        display: flex;
-    }
 
-    nav.navigation a {
-        font-size: 16px;
-        padding: 10px;
-        font-weight: bold;
-        text-decoration: none;
-    }
 
     a:hover  {
         color: var(--clr-accen-light);
@@ -167,6 +80,15 @@ img.close.show {
     /* Hide toggle box on large screens */
     div.toggleBox {
         display: none;
+    }
+    .sidebar {
+        position: fixed;  /* Fixes the sidebar to a specific position on the screen */
+        top: 15%;           /* Aligns the top of the sidebar with the top of the viewport */
+        left: 0;          /* Aligns the left of the sidebar with the left of the viewport */
+        width: auto;    /* Specify the width of the sidebar */
+        height: 100vh;    /* Sets the height of the sidebar to fill the viewport */
+        overflow-y: auto; /* Adds a scrollbar if the content is taller than the viewport */
+        z-index: 1000;    /* Ensures the sidebar is on top of other content */
     }
 }
 
