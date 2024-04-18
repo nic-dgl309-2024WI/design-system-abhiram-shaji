@@ -7,135 +7,146 @@
   <title>Containers</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./design-system.css">
+  <script src="https://kit.fontawesome.com/df407aa6ef.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
   <!-- Navbar -->
-  <header class="u-bg-secondary u-bg-primary">
-    <div class="logo">
-      <a class="logo_text u-text-secondary u-font-josefin-sans" href="index.html">
-        <h2 class="u-heading">Design System</h2>
+  <header>
+    <nav class="u-font-montserrat u-font-semibold">
+      <a href="/index.html" class="logo-container">
+        <img class="logo" src="images/logo.png" alt="outback nursery logo">
       </a>
-    </div>
-    <nav class="navigation">
-      <a class="navigation_item u-text-secondary u-body-text" href="about-me.html">About Me</a>
-      <a class="navigation_item u-text-secondary u-body-text" href="">Demo Site</a>
+      <input type="checkbox" id="check">
+      <label for="check" class="hamburger-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="u-text-primary nav-list u-bg-primary">
+        <li><a href="/about-me.html">about me</a></li>
+        <li><a href="/index.html">Demo Site</a></li>
 
-      <section class="sidebar u-bg-white">
-        <h2 class="sidebar_item u-text-secondary u-heading">Branding</h2>
-        <ul class="sidebar_item">
-          <li><a class="u-text-primary u-body-text" href="colors.html">01 Colours</a></li>
-          <li><a class="u-text-primary u-body-text" href="typography.html">02 Typography</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">03 Logo</a></li>
-        </ul>
-    
-        <h2 class="sidebar_item u-text-secondary u-heading">Utilities</h2>
-        <ul class="sidebar_item">
-          <li><a class="u-text-primary u-body-text" href="spacing.html">04 Spacing</a></li>
-          <li><a class="u-text-primary u-body-text active-page" href="containers.html">05 Containers</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">06 Images</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">07 Interactive</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">08 Pages</a></li>
-        </ul>
-    
-        <h2 class="sidebar_item u-text-secondary u-heading">Navigation</h2>
-        <ul class="sidebar_item">
-          <li><a class="u-text-primary u-body-text" href="#">09 Navbar</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">10 Breadcrumbs</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">11 Pagination</a></li>
-        </ul>
-    
-        <h2 class="sidebar_item u-text-secondary u-heading">Blocks</h2>
-        <ul class="sidebar_item">
-          <li><a class="u-text-primary u-body-text" href="#">12 Hero</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">13 Carousel</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">14 Slats</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">15 Footer</a></li>
-        </ul>
-    
-        <h2 class="sidebar_item u-text-secondary u-heading">Components</h2>
-        <ul class="sidebar_item">
-          <li><a class="u-text-primary u-body-text" href="#">16 Cards</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">17 Forms</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">18 Accordion</a></li>
-          <li><a class="u-text-primary u-body-text" href="#">19 Lists</a></li>
-        </ul>
-      </section>
-
+      </ul>
     </nav>
-
-    <div class="toggleBox">
-      <a onclick="showMenu()" href="#" class="u-text-secondary"><img class="menu" alt="menu"
-          src="images/icons/more.png"><img class="close" src="images/icons/close.png" alt="close"></a>
-    </div>
   </header>
 
-  <!-- Container properties -->
-  <div class="main-content">
-    <section>
-      <div class="l-flex l-justify-center l-align-center spacing-example-div u-bg-primary u-body-text u-text-primary">
-        <p>This flex container centers its child paragraph horizontally and vertically within a 200px tall container.
+  <section class="sidebar u-bg-white">
+    <h2 class="sidebar_item u-text-secondary u-heading">Branding</h2>
+    <ul class="sidebar_item">
+      <li><a class="u-text-primary u-body-text" href="colors.html">01 Colours</a></li>
+      <li><a class="u-text-primary u-body-text" href="typography.html">02 Typography</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">03 Logo</a></li>
+    </ul>
+
+    <h2 class="sidebar_item u-text-secondary u-heading">Utilities</h2>
+    <ul class="sidebar_item">
+      <li><a class="u-text-primary u-body-text active-page" href="spacing.html">04 Spacing</a></li>
+      <li><a class="u-text-primary u-body-text" href="containers.html">05 Containers</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">06 Images</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">07 Interactive</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">08 Pages</a></li>
+    </ul>
+
+    <h2 class="sidebar_item u-text-secondary u-heading">Navigation</h2>
+    <ul class="sidebar_item">
+      <li><a class="u-text-primary u-body-text" href="#">09 Navbar</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">10 Breadcrumbs</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">11 Pagination</a></li>
+    </ul>
+
+    <h2 class="sidebar_item u-text-secondary u-heading">Blocks</h2>
+    <ul class="sidebar_item">
+      <li><a class="u-text-primary u-body-text" href="#">12 Hero</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">13 Carousel</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">14 Slats</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">15 Footer</a></li>
+    </ul>
+
+    <h2 class="sidebar_item u-text-secondary u-heading">Components</h2>
+    <ul class="sidebar_item">
+      <li><a class="u-text-primary u-body-text" href="#">16 Cards</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">17 Forms</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">18 Accordion</a></li>
+      <li><a class="u-text-primary u-body-text" href="#">19 Lists</a></li>
+    </ul>
+  </section>
+
+
+  <!-- Spacing properties -->
+  <div class="design-system-content u-bg-secondary">
+    <section class="l-pb-1">
+      <div class="c-card l-m l-flex l-justify-center l-align-center u-bg-primary u-body-text u-text-primary">
+        <p class="c-card l-m">This flex container centers its child paragraph horizontally and vertically within a 200px
+          tall container.
         </p>
-        <p>----Item 1----</p>
-        <p>----Item 2----</p>
-        <p>Classes: l-flex l-justify-center l-align-center</p>
+        <p class="c-card l-m">----Item 1----</p>
+        <p class="c-card l-m">----Item 2----</p>
+        <p class="c-card l-m">Classes: l-flex l-justify-center l-align-center</p>
       </div>
 
       <!-- Flex Row -->
-      <div class="l-flex l-flex-row spacing-example-div u-bg-secondary u-body-text u-text-primary">
-        <p>In this flex container items are laid out in a row, showing how text content aligns side by side.</p>
-        <p>----Item 1----</p>
-        <p>----Item 2----</p>
-        <p>Classes: l-flex l-flex-row</p>
+      <div class="c-card l-m l-flex l-flex-row u-bg-primary u-body-text u-text-primary">
+        <p class="c-card l-m">In this flex container items are laid out in a row, showing how text content aligns side
+          by side.</p>
+        <p class="c-card l-m">----Item 1----</p>
+        <p class="c-card l-m">----Item 2----</p>
+        <p class="c-card l-m">Classes: l-flex l-flex-row</p>
       </div>
 
       <!-- Flex Column -->
-      <div class="l-flex l-flex-col spacing-example-div u-bg-primary u-body-text u-text-primary">
-        <p>In this flex container items are stacked vertically, illustrating a columnar arrangement of text content.</p>
-        <p>Item 1</p>
-        <p>Item 2</p>
-        <p>Classes: l-flex l-flex-col</p>
+      <div class="c-card l-m l-flex l-flex-col u-bg-primary u-body-text u-text-primary">
+        <p class="c-card l-m">In this flex container items are stacked vertically, illustrating a columnar arrangement
+          of text content.</p>
+        <p class="c-card l-m">Item 1</p>
+        <p class="c-card l-m">Item 2</p>
+        <p class="c-card l-m">Classes: l-flex l-flex-col</p>
       </div>
 
-      <div class="l-grid l-grid-cols-2 spacing-example-div u-bg-secondary u-body-text u-text-primary">
-        <p>This grid layout divides the content into two columns, evenly distributing the space.</p>
-        <p>The second column's text demonstrates the equal division.</p>
-        <p>Classes: l-grid l-grid-cols-2</p>
+      <div class="c-card l-m l-grid l-grid-cols-2 u-bg-primary u-body-text u-text-primary">
+        <p class="c-card l-m">This grid layout divides the content into two columns, evenly distributing the space.</p>
+        <p class="c-card l-m">The second column's text demonstrates the equal division.</p>
+        <p class="c-card l-m">Classes: l-grid l-grid-cols-2</p>
       </div>
 
-      <div class="l-grid l-grid-cols-3 spacing-example-div u-bg-primary u-body-text u-text-primary">
-        <p>Column 1: This grid features three columns, showcasing how content can be organized.</p>
-        <p>Column 2: Each column receives an equal fraction of the container's width.</p>
-        <p>Column 3: The use of columns is effective for presenting related information side by side.</p>
-        <p>Classes: l-grid l-grid-cols-3</p>
+      <div class="c-card l-m l-grid l-grid-cols-3 u-bg-primary u-body-text u-text-primary">
+        <p class="c-card l-m">Column 1: This grid features three columns, showcasing how content can be organized.</p>
+        <p class="c-card l-m">Column 2: Each column receives an equal fraction of the container's width.</p>
+        <p class="c-card l-m">Column 3: The use of columns is effective for presenting related information side by side.
+        </p>
+        <p class="c-card l-m">Classes: l-grid l-grid-cols-3</p>
       </div>
-    </section>
 
-    <section>
       <!-- Full-width section, stretches 100% of the viewport width -->
-      <div class="full-width spacing-example-div u-bg-secondary u-body-text u-text-primary">
-        <p>This section stretches to the full width of the viewport.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      <div class="c-card l-m full-width u-bg-primary u-body-text u-text-primary">
+        <p class="c-card l-m">This section stretches to the full width of the viewport.</p>
+        <p class="c-card l-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum.</p>
-        <p>Classes: full-width</p>
+        <p class="c-card l-m">Classes: full-width</p>
       </div>
 
       <!-- Container, will have padding on mobile and be centered with a max-width of 1200px on wider screens -->
-      <div class="container spacing-example-div u-bg-primary u-body-text u-text-primary">
-        <p>This section is within a container that adds padding on the sides on mobile devices, and is centered with a
+      <div class="c-card l-m container  u-bg-primary u-body-text u-text-primary">
+        <p class="c-card l-m">This section is within a container that adds padding on the sides on mobile devices, and
+          is centered with a
           maximum width of 1200px on screens wider than 768px.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        <p class="c-card l-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum.</p>
-        <p>Classes: container</p>
+        <p class="c-card l-m">Classes: container</p>
       </div>
     </section>
+
+
+
+
   </div>
 
   <script src="./design-system.js"></script>
