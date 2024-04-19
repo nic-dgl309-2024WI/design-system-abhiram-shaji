@@ -7,22 +7,23 @@
 
   /*Background*/
   --clr-primary-bg: #fffffe;
-  --clr-secondary-bg: #FFF7F1;
+  --clr-secondary-bg: #55423d;
+  --clr-bg-dark: #271c19;
   --clr-white: #fffffe;
   --clr-black: #191919;
 
   /*Heading / Button Text */
-  --clr-secondary-text: #191919;
+  --clr-secondary-text: #140d0b;
 
   /*Paragraph*/
-  --clr-primary-text: #191919;
+  --clr-primary-text: #271c19;
 
 
 
   /*Button*/
-  --clr-accent: #ff8ba7;
-  --clr-accent-light: #ffc6c7;
-  --clr-accent-dark: #191919;
+  --clr-accent: #e78fb3;
+  --clr-accent-light: #9656a1;
+  --clr-accent-dark: #271c19;
 
   /* Gradient */
   --overlay-gradient: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
@@ -40,24 +41,13 @@
   --heading-line-height: 1.2;
   --body-line-height: 1.6;
   --letter-spacing: 0.5px;
-}
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  color: var(--clr-primary-text);
-  background-color: var(--clr-primary-bg);
-  line-height: var(--body-line-height);
-}
+  --max-container-width-desktop: 70rem;
+  --max-height-desktop: 40rem;
 
-p {
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
+  --button-width: 10rem;
 
-h1,h2,h3,h4 {
-  font-family: var(--heading-font-family);
+  --max-card-height: 30rem;
 }
 
 
@@ -72,6 +62,10 @@ h1,h2,h3,h4 {
   text-decoration: none;
 }
 
+body {
+  background-color: var(--clr-secondary-bg);
+}
+
 a {
   text-decoration: none;
 }
@@ -84,67 +78,77 @@ a {
 
 /* Utility classes */
 
+
+
+.l-w-100 {
+  width: 100%;
+}
+
+.l-w-50 {
+  width: 50%;
+}
+
 /* Margins */
 .l-m {
-  margin: 1rem;
+  margin: 1.5rem;
 }
 
 .l-mt-1 {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .l-mb-1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .l-mr-1 {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 .l-ml-1 {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 .l-mx-1 {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .l-my-1 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Padding */
 
 .l-p {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .l-pt-1 {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 
 .l-pb-1 {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .l-pr-1 {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
 }
 
 .l-pl-1 {
-  padding-left: 1rem;
+  padding-left: 1.5rem;
 }
 
 .l-px-1 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .l-py-1 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Flex */
@@ -181,14 +185,17 @@ a {
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* Container for mobile */
-.full-width {
+
+.width-100 {
   width: 100%;
 }
 
-.container {
-  max-width: 100%;
-  padding: 0 1rem;
+.width-75 {
+  width: 75%;
+}
+
+.width-50 {
+  width: 50%;
 }
 
 
@@ -306,8 +313,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 25%;
-  padding-bottom: 20%;
+  padding-top: 100px;
 }
 
 .explore-bg {
@@ -356,18 +362,15 @@ a {
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, .05), 0 20px 50px 0 rgba(0, 0, 0, .1);
 	border-radius: 15px;
 	overflow: hidden;
-	padding: 1.25rem;
   transform: translateY(-5px);
-  max-width: 80%;
 	
 	&:hover, &:focus-within {
-		box-shadow: 0 0 0 2px var(--clr-accent), 0 10px 60px 0 rgba(0, 0, 0, .1);
+		box-shadow: 0 0 0 2px var(--clr-accent-light), 0 10px 60px 0 rgba(0, 0, 0, .1);
 		
 	}
 }
 
 .card__image-container {
-
 	overflow: hidden;
   display: flex;
   align-items: center;
@@ -375,16 +378,15 @@ a {
 }
 
 .card_image {
-	max-width: 70%;
-	display: block;
-  border-radius: 10px;
+  height: 15rem;
+  border-radius: 100%;
+  box-shadow: var(--box-shadow);
 }
 
 .white-overlay {
-  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
-  width: 100%;
-  padding: 2%;
+  box-shadow: var(--box-shadow);
 }
 
 /*----------------------------------------------------------- Navbar styles -------------------------------------------------------------------------------*/
@@ -434,7 +436,7 @@ a {
 .nav-list li {
   opacity: 0;
   line-height: 30px;
-  margin: 50px 0;
+  margin-bottom: 5%;
   transition: all .5s;
 }
 
@@ -453,7 +455,7 @@ a {
 .hamburger-btn {
   display: block;
   font-size: 30px;
-  color: var(--clr-secondary-text);
+  color: var(--clr-white);
   float: right;
   line-height: 75px;
   margin-right: 40px;
@@ -476,7 +478,9 @@ a {
 
 
 .button {
+  box-shadow: var(--box-shadow);
   appearance: none;
+  width: var(--button-width);
   background-color: var(--clr-accent);
   border: 2px solid #1A1A1A;
   border-radius: 15px;
@@ -489,7 +493,6 @@ a {
   text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   touch-action: manipulation;
-  width: 100%;
 }
 
 .button:disabled {
@@ -509,26 +512,23 @@ a {
 
 /*------------------------------------------------------ Form Style --------------------------------------------------------------*/
 
-/* Form container styling */
-.form-container {
- /* Maximum width to ensure it doesn't get too wide on large screens */
-  margin: auto; /* Center the form in the section */
-}
+
 
 /* Input field styling */
 .form-container input[type="text"] {
-  width: 100%; /* Make inputs take full width of the form container */
-  padding: 15px; /* Increase padding for larger, easier to read input fields */
-  margin: 10px 0; /* Add some vertical space between inputs */
-  border: 1px solid #ccc; /* Add a border to inputs */
-  border-radius: 5px; /* Slightly round the corners of the inputs */
+  padding: 15px;
+  margin: 10px 0; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
 }
 
 /* Message input styling */
 .form-container input[type="text"][name="exampleInput"][placeholder="Message"] {
-  height: 100px; /* Make the message input taller */
-  padding-top: 15px; /* Add padding to the top for text alignment */
-  padding-bottom: 15px; /* Add padding to the bottom for text alignment */
+  height: 100px; 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  box-shadow: var(--box-shadow);
 }
 
 /*--------------------------------------------------------- Footer ------------------------------------------------------------*/
@@ -547,16 +547,15 @@ footer {
 
 /* Accordion base */
 .accordion-item {
-  margin-top: 1rem;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   transition: background-color 0.3s ease-in-out;
+
 }
 
 .accordion-toggle {
-  width: 100%;
   text-align: left;
-  padding: 1rem; /* Default padding */
+  padding: 1rem;
   background-color: transparent;
   border: none;
   outline: none;
@@ -590,8 +589,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 3rem;
 }
+
 
 
 /*----------------------------------------------- Desktop view -------------------------------------------------------------------------*/
@@ -601,94 +602,37 @@ footer {
 @media only screen and (min-width: 1080px) {
 
   .hero-p {
-    max-width: 60%;
     text-align: left;
+  }
+
+  .hero-overlay{
+    max-width: var(--max-container-width-desktop);
   }
 
   .hero-container {
     align-items: flex;
     flex-direction: row;
+
   }
 
 
   .section-combo {
+    max-width: var(--max-container-width-desktop);
     display: grid;
-    padding-left: 10%;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
-  .form-container {
-    margin: 0rem 15rem;
-  }
-
   .hero-bg {
-    height: 60vh;
+    height: 80vh;
   }
 
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  .form-container-max {
+    max-width: var(--max-container-width-desktop);
   }
 
-  .c-card-hero {
-    margin: 0rem 15rem;
-  }
-
-  .logo-container {
-    margin-left: 25px;
-  }
-
-/*----------------------------------------------- Desktop Nav -------------------------------------------------------------------------*/
-
-
-  .nav {
-    height: 100px;
-  }
-
-  .hamburger-btn {
-    display: none;
-  }
-
-  .nav-list {
-    position: relative;
-    height: 100px;
-    top: 0;
-    float: right;
-    text-align: right;
-    margin-right: 25px;
-    transition: none;
-  }
-
-  .nav-list li {
-    display: inline-block;
-    opacity: 1;
-    line-height: 100px;
-    margin: 0 20px;
-    transition: none;
-  }
-
-  .nav-list li a.active {
-    border: 10px solid var(--clr-accent);
-    padding: 10px;
-    margin-bottom: -10px;
-  }
-
-
-  .nav-list li a:hover {
-    box-shadow: 0 10px 0 0 var(--clr-accent) ; /*** COLOR AND THICKNESS OF THE LINE ON HOVER ***/
- padding-bottom: 10px;
- opacity: 1 ;
-  }
-
-  footer {
-    flex-direction: row;
-    /* Align elements horizontally for desktop */
-    justify-content: space-around;
-    /* Evenly space out the elements */
-    align-items: flex-start;
-    /* Align items to the start of the flex container */
+  .form-container > input {
+    max-width: 40rem;
   }
 
   .l-flex-row-desktop {
@@ -721,6 +665,63 @@ footer {
 .l-flex-row-desktop .accordion-item:last-child {
   margin-right: 0;
 }
+
+/*----------------------------------------------- Desktop Nav -------------------------------------------------------------------------*/
+
+
+  .nav {
+    height: 100px;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+
+  .nav-list {
+    position: relative;
+    height: 100px;
+    top: 0;
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+    transition: none;
+  }
+
+  .nav-list li {
+    display: inline-block;
+    opacity: 1;
+    line-height: 100px;
+    margin: 0 20px;
+    transition: none;
+  }
+
+  .max-heright-desktop {
+    max-height: var(--max-height-desktop);
+  }
+
+  .nav-list li a.active {
+    border: 10px solid var(--clr-accent);
+    padding: 10px;
+    margin-bottom: -10px;
+  }
+
+
+  .nav-list li a:hover {
+    box-shadow: 0 10px 0 0 var(--clr-accent-light) ; /*** COLOR AND THICKNESS OF THE LINE ON HOVER ***/
+ padding-bottom: 10px;
+ opacity: 1 ;
+  }
+
+  footer {
+    flex-direction: row;
+    /* Align elements horizontally for desktop */
+    justify-content: space-around;
+    /* Evenly space out the elements */
+    align-items: flex-start;
+    /* Align items to the start of the flex container */
+  }
+
+
 
 
 }
