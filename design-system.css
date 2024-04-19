@@ -26,12 +26,14 @@ img.close.show {
 
 .design-system-content {
     display: grid;
-    padding: 3% 3% 0 3%;
-    padding-bottom: 0%;
-    gap: 5%;
-    margin-left: 10%;
-    padding-top: 10%;
-    min-height: 100vh;
+    
+    padding-bottom: 5%;
+
+
+    padding-top: 7%;
+
+    padding-left: 5%;
+
 }
 
 .typography-container-item {
@@ -49,11 +51,6 @@ img.close.show {
 }
 
 /*For spacing page example divs*/
-.spacing-example-div {
-    min-height: 100px;
-}
-
-
 
 
 

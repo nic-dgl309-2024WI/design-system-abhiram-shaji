@@ -350,12 +350,12 @@ a {
 	border-radius: 15px;
 	overflow: hidden;
 	padding: 1.25rem;
-	position: relative;
-	transition: .15s ease-in;
+  transform: translateY(-5px);
+  max-width: 80%;
 	
 	&:hover, &:focus-within {
-		box-shadow: 0 0 0 2px #16C79A, 0 10px 60px 0 rgba(0, 0, 0, .1);
-		transform: translateY(-5px);
+		box-shadow: 0 0 0 2px var(--clr-accent), 0 10px 60px 0 rgba(0, 0, 0, .1);
+		
 	}
 }
 
