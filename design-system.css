@@ -73,8 +73,10 @@ img.close.show {
     /* Navbar for desktop */
 
 
-    a:hover {
-        color: var(--clr-accen-light);
+    a:hover, .active {
+        box-shadow: 0 3px 0 0 var(--clr-accent-light) ; /*** COLOR AND THICKNESS OF THE LINE ON HOVER ***/
+        padding-bottom: 1px;
+        opacity: 1 ;
     }
 
     /* Hide toggle box on large screens */

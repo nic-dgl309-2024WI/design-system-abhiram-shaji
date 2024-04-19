@@ -229,7 +229,11 @@ a {
 }
 
 .u-accent-light {
-  background-color: var(--clr-accen-light);
+  background-color: var(--clr-accent-light);
+}
+
+.u-accent-dark {
+  background-color: var(--clr-accent-dark);
 }
 
 
@@ -246,22 +250,21 @@ a {
 }
 
 /* Headings common styles */
-.u-heading {
-  font-family: var(--heading-font-family);
-  font-weight: var(--heading-font-weight);
-  line-height: var(--heading-line-height);
-}
 
 /* Specific heading styles */
 .u-heading-1
  {
   font-size: 2rem;
-  line-height: 1.8rem;
+  font-family: var(--heading-font-family);
+  font-weight: var(--heading-font-weight);
+  line-height: var(--heading-line-height);
 }
 
 .u-heading-2 {
   font-size: 1.2rem;
-  line-height: 1.5rem;
+  font-family: var(--heading-font-family);
+  font-weight: var(--heading-font-weight);
+  line-height: var(--heading-line-height);
 }
 
 .u-hero-headline {
@@ -403,7 +406,9 @@ a {
   align-items: center;
   width: auto;
   margin: 0;
+  pointer-events: none; 
 }
+
 
 .logo {
   margin-left: 20px;

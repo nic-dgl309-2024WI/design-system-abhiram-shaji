@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>images</title>
+  <title>Navbar</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./design-system.css">
   <script src="https://kit.fontawesome.com/df407aa6ef.js" crossorigin="anonymous"></script>
@@ -78,7 +78,7 @@
 
     <h2 class="u-text-white u-heading l-mt-1">Navigation</h2>
     <ul>
-      <li><a class="u-text-white u-body-text" href="navbar.html">09 Navbar</a></li>
+      <li><a class="u-text-white u-body-text active" href="navbar.html">09 Navbar</a></li>
       <li><a class="u-text-white u-body-text" href="#">10 Breadcrumbs</a></li>
       <li><a class="u-text-white u-body-text" href="#">11 Pagination</a></li>
     </ul>
@@ -104,25 +104,27 @@
   <!-- Spacing properties -->
   <div class="design-system-content u-bg-white max-width-desktop">
 
-    <div class="c-card">
 
-        <nav class="u-font-montserrat u-font-semibold">
-            <a href="/index.html" class="logo-container">
-                <img class="logo" src="images/logo.png" alt="outback nursery logo">
-            </a>
-            <input type="checkbox" id="check">
-            <label for="check" class="hamburger-btn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <ul class="u-text-primary nav-list u-bg-primary">
-                <li><a href="/coming-soon.html">about us</a></li>
-                <li><a href="/coming-soon.html">plants</a></li>
-                <li><a href="/coming-soon.html">additional products</a></li>
-                <li><a href="/coming-soon.html">social & news</a></li>
-            </ul>
-        </nav>
 
-    </div>
+      <nav class="nav u-font-montserrat u-font-semibold l-m">
+        <div class="l-flex l-w-50">
+        <a href="/index.html" class="logo-container">
+            <img class="logo" src="images/logo.png" alt="outback nursery logo">
+        </a>
+        <input type="checkbox" id="check">
+        <label for="check" class="hamburger-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="u-text-primary nav-list u-bg-primary">
+            <li><a href="/coming-soon.html">about us</a></li>
+            <li><a href="/coming-soon.html">plants</a></li>
+            <li><a href="/coming-soon.html">additional products</a></li>
+            <li><a href="/coming-soon.html">social & news</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
 
   </div>
 
