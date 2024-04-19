@@ -8,7 +8,7 @@
   /*Background*/
   --clr-primary-bg: #fffffe;
   --clr-secondary-bg: #FFF7F1;
-  --clr-white: #191919;
+  --clr-white: #fffffe;
   --clr-black: #191919;
 
   /*Heading / Button Text */
@@ -17,10 +17,12 @@
   /*Paragraph*/
   --clr-primary-text: #191919;
 
+
+
   /*Button*/
   --clr-accent: #ff8ba7;
   --clr-accent-light: #ffc6c7;
-  --clr-accent-dark: #e4d5b7;
+  --clr-accent-dark: #191919;
 
   /* Gradient */
   --overlay-gradient: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
@@ -407,6 +409,7 @@ a {
 .logo {
   margin-left: 20px;
   height: 100%;
+  filter: invert(1);
 }
 
 
@@ -436,14 +439,14 @@ a {
 }
 
 .nav-list li a {
-  color: var(--clr-secondary-text);
+  color: var(--clr-white);
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .nav-list li a.active,
 .nav-list li a:hover {
-  color: var(--clr-accent-light);
+
   transition: 0.5s;
 }
 
@@ -670,12 +673,10 @@ footer {
     border: 10px solid var(--clr-accent);
     padding: 10px;
     margin-bottom: -10px;
-    color: var(--clr-black);
   }
 
 
   .nav-list li a:hover {
-    color: var(--clr-black);
     box-shadow: 0 10px 0 0 var(--clr-accent) ; /*** COLOR AND THICKNESS OF THE LINE ON HOVER ***/
  padding-bottom: 10px;
  opacity: 1 ;
