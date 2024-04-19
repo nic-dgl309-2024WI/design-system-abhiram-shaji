@@ -62,9 +62,6 @@
   text-decoration: none;
 }
 
-body {
-  background-color: var(--clr-secondary-bg);
-}
 
 a {
   text-decoration: none;
@@ -220,6 +217,10 @@ a {
 
 .u-text-secondary {
   color: var(--clr-secondary-text);
+}
+
+.u-text-white {
+  color: var(--clr-white);
 }
 
 /* Accent Colors */
@@ -693,6 +694,10 @@ footer {
 
   .max-heright-desktop {
     max-height: var(--max-height-desktop);
+  }
+
+  .max-width-desktop {
+    max-width: var(--max-container-width-desktop);
   }
 
   .nav-list li a.active {

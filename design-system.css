@@ -25,14 +25,9 @@ img.close.show {
 
 .design-system-content {
     display: grid;
-
-    padding-bottom: 5%;
-
-
-    padding-top: 7%;
-
-    padding-left: 5%;
-
+    padding-bottom: 1rem;
+    padding-top: 8rem;
+    padding-left: 1rem;
 }
 
 .typography-container-item {
@@ -58,7 +53,7 @@ img.close.show {
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (min-width: 800px) {
+@media only screen and (min-width: 1080px) {
 
 
     .sidebar-mobile {
@@ -88,28 +83,16 @@ img.close.show {
     }
 
     .sidebar-desktop {
+
+        background-color: var(--clr-accent-dark);
         display: block;
         position: fixed;
-        /* Fixes the sidebar to a specific position on the screen */
-        top: 15%;
-        /* Aligns the top of the sidebar with the top of the viewport */
-        left: 0;
-        /* Aligns the left of the sidebar with the left of the viewport */
-        width: auto;
-        /* Specify the width of the sidebar */
+        padding-top: 8%;
+        padding-left: 1%;
+        width: 15rem;
         height: 100vh;
-        /* Sets the height of the sidebar to fill the viewport */
         overflow-y: auto;
-        /* Adds a scrollbar if the content is taller than the viewport */
-        z-index: 1000;
-        /* Ensures the sidebar is on top of other content */
-    }
-}
+        z-index: 0;
 
-@media (min-width: 1200px) {
-
-    /* Adjust grid layout for even larger screens */
-    .l-grid {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
