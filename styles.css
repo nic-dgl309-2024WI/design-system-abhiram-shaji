@@ -666,9 +666,19 @@ footer {
     transition: none;
   }
 
-  .nav-list li a.active,
+  .nav-list li a.active {
+    border: 10px solid var(--clr-accent);
+    padding: 10px;
+    margin-bottom: -10px;
+    color: var(--clr-black);
+  }
+
+
   .nav-list li a:hover {
-    color: var(--clr-accent);
+    color: var(--clr-black);
+    box-shadow: 0 10px 0 0 var(--clr-accent) ; /*** COLOR AND THICKNESS OF THE LINE ON HOVER ***/
+ padding-bottom: 10px;
+ opacity: 1 ;
   }
 
   footer {
