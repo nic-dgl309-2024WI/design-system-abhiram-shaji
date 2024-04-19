@@ -254,7 +254,7 @@ a {
 /* Specific heading styles */
 .u-heading-1
  {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.8rem;
 }
 
@@ -276,11 +276,7 @@ a {
   line-height: 1.5rem;
 }
 
-/*Hero subheading  */
-.u-hero-sub {
-  font-family: var(--body-font-family);
-  font-size: 1.25rem;
-}
+
 
 /* Utility classes for font weights  */
 .u-font-light {
