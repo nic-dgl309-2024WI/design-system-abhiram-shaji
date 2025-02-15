@@ -309,7 +309,7 @@ a {
 }
 
 .hero-bg {
-  background-image: url('/images/backgrounds/hero-welcome.jpg');
+  background-image: url('images/backgrounds/hero-welcome.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -317,42 +317,42 @@ a {
 }
 
 .explore-bg {
-  background-image: var(--overlay-gradient), url('/images/backgrounds/explore-bg.webp');
+  background-image: var(--overlay-gradient), url('images/backgrounds/explore-bg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .giftcard-bg {
-  background: var(--overlay-gradient), url('/images/backgrounds/giftcard-bg.webp');
+  background: var(--overlay-gradient), url('images/backgrounds/giftcard-bg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .social-bg {
-  background-image: var(--overlay-gradient), url('/images/backgrounds/social-bg.webp');
+  background-image: var(--overlay-gradient), url('images/backgrounds/social-bg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .products-bg {
-  background-image: var(--overlay-gradient), url('/images/backgrounds/products-bg.webp');
+  background-image: var(--overlay-gradient), url('images/backgrounds/products-bg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .testimonials-bg {
-  background-image: var(--overlay-gradient), url('/images/backgrounds/testimonials-bg.jpg');
+  background-image: var(--overlay-gradient), url('images/backgrounds/testimonials-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .contact-bg {
-  background-image: var(--overlay-gradient), url('/images/backgrounds/contact-bg.jpg');
+  background-image: var(--overlay-gradient), url('images/backgrounds/contact-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
